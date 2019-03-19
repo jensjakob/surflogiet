@@ -269,7 +269,7 @@
 			<div class="text">
 				<h1>Centret</h1>
 				
-				<p>Truffaut skateboard street art PBR jean shorts Shoreditch farm-to-table Austin lo-fi Odd Future occupy. Chia semiotics skateboard, Schlitz messenger bag master cleanse High Life occupy vegan polaroid tote bag leggings. Organic photo booth cray tofu, vegan fixie bitters sriracha.</p>
+				<p>Välkommen till centret. Det är hit du vänder dig när du vill boka aktiviteter eller checka in i tälthotellet. Här kan du också hyra brädor och kajaker. Öppet mellan 10.00 - 21.00.</p>
 			</div>
 			<div class="infocards two-col">
 				<div class="card">
