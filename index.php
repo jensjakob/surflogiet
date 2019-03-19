@@ -426,7 +426,7 @@ Tack!</textarea>
 		</div>
 		<div class="infobox" id="kontakt">
 			<div class="picture">
-				<video class="wp-video-shortcode" id="video-193-1" width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="https://surflogiet.com/wp-content/uploads/2019/02/surflogiet_rekrytering.mp4?_=1" /><a href="https://surflogiet.com/wp-content/uploads/2019/02/surflogiet_rekrytering.mp4">https://surflogiet.com/wp-content/uploads/2019/02/surflogiet_rekrytering.mp4</a></video>
+				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
 			<div class="text">
