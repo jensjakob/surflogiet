@@ -119,9 +119,10 @@
 		height: 100%;
 	}
 	header .layer1 img {
-		min-height: 100%;
+		min-height: 101%;
 		min-width: 100%;
 		filter: blur(8px);
+		width: auto;
 	}
 	header .layer2 video {
 		min-height: 101vh;
@@ -177,7 +178,7 @@
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/header.jpg' ), 'full'); ?>
 			</div>
 			<div class="layer2">
-				<video autoplay muted loop>
+				<video playsinline autoplay muted loop>
 					<source src="<?php echo content_url() ?>/uploads/surflogiet_header.mp4" type="video/mp4" />
 				</video>
 			</div>
