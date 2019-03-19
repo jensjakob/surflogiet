@@ -139,6 +139,7 @@
 				<div class="col1">
 					<label for="activity">Aktivitet:</label>
 					<select id="activity" name="activity">
+						<option> </option>
 						<option>STAND UP PADDLE GUIDAD TUR</option>
 						<option>STAND UP PADDLE YOGA</option>
 						<option>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
