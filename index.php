@@ -531,7 +531,7 @@ Tack!</textarea>
 		// }, 2000);
 	});
 	$(".sidebar-open").click(function() {
-		$("#sidebar").show();
+		$("#sidebar").toggle();
 	});
 	$(".sidebar-close").click(function() {
 		$("#sidebar").hide();
