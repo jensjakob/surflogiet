@@ -123,7 +123,11 @@
 		min-width: 100%;
 		filter: blur(8px);
 	}
-	header .layer2 {
+	header .layer2 video {
+		min-height: 101vh;
+		min-width: 100vw;
+	}
+	header .layer3 {
 		top: 0;
 		height: 101%;
 		width: 100%;
@@ -137,7 +141,7 @@
 		width: 280px;
 		max-width: 80%;
 	}
-	header .layer3 {
+	header .layer4 {
 		width: 100%;
 		height: 30%;
 		bottom: 0;
@@ -170,12 +174,17 @@
 	<header>
 		<div class="layers">
 			<div class="layer1">
-				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/header.jpg' ), 'full'); ?>
+				<img src="images/header.jpg">
 			</div>
 			<div class="layer2">
-				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png" alt="SURFLOGIET">
+				<video autoplay muted loop>
+					<source src="<?php echo content_url() ?>/uploads/surflogiet_header.mp4" type="video/mp4" />
+				</video>
 			</div>
 			<div class="layer3">
+				<img class="logo" src="images/logo_white.png" alt="SURFLOGIET">
+			</div>
+			<div class="layer4">
 				<a class="skip-to-content" href="#content">
 					<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" fill="white"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 				</a>
