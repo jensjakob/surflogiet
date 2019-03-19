@@ -561,7 +561,7 @@ var $msg = $(".status_msg");
 $this.css({opacity: 0.3});
 $.ajax({
 	type: "POST",
-	url: ajax_object.ajax_url,
+	url: <?php echo admin_url( 'admin-ajax.php' ) ?>,
 	data: data,
 	success: function (json) {
 		$this.css({opacity: 1});
