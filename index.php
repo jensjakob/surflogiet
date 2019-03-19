@@ -690,6 +690,7 @@ console.log(data);
 	.infobox img {
 		display: inline-block;
 		width: 100%;
+		height: auto;
 	}
 	.infobox .picture,
 	.infobox .text {
@@ -761,6 +762,7 @@ console.log(data);
 	}
 	.infocards img {
 		width: 100%;
+		height: auto;
 	}
 	.feet {
 		width: 100%;
