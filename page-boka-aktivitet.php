@@ -57,7 +57,7 @@
 	</head>
 	<body>
 		<header>
-			<a href="/"><img class="logo" src="images/logo_white.png"></a>
+			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png"></a>
 		</header>
 		<div id="content">
 			<div class="form">

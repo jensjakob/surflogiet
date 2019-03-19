@@ -170,10 +170,10 @@
 	<header>
 		<div class="layers">
 			<div class="layer1">
-				<img src="images/header.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/header.jpg">
 			</div>
 			<div class="layer2">
-				<img class="logo" src="images/logo_white.png" alt="SURFLOGIET">
+				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png" alt="SURFLOGIET">
 			</div>
 			<div class="layer3">
 				<a class="skip-to-content" href="#content">
@@ -188,11 +188,11 @@
 			<div class="layer2">
 				<div class="circle"> </div>
 			</div>
-			<div class="layer3"><img src="images/logiet.png"></div>
+			<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.png"></div>
 		</div>
 		<div class="infobox">
 			<div class="picture">
-				<img src="images/logiet.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.jpg">
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -208,21 +208,21 @@
 		</div>
 		<div class="infocards">
 			<div class="card">
-				<img src="images/suit.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/suit.jpg">
 				<h2>Suit</h2>
 				<p>Surflogiets två sviter är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
 				<p>3495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="#">Boka</a></div>
 			</div>
 			<div class="card">
-				<img src="images/double.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/double.jpg">
 				<h2>Double</h2>
 				<p>Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
 				<p>2495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="#">Boka</a></div>
 			</div>
 			<div class="card">
-				<img src="images/lodger.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/lodger.jpg">
 				<h2>Lodger</h2>
 				<p>4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
 				<p>4995 kr/natt</p>
@@ -238,11 +238,11 @@
 			<div class="layer2">
 				<div class="circle"> </div>
 			</div>
-			<div class="layer3"><img src="images/baren.png"></div>
+			<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.png"></div>
 		</div>
 		<div class="infobox reverse">
 			<div class="picture">
-				<img src="images/baren.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.jpg">
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -263,7 +263,7 @@
 				<div class="layer2">
 					<div class="circle"> </div>
 				</div>
-				<div class="layer3"><img src="images/centret.png"></div>
+				<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/centret.png"></div>
 			</div>
 		<div class="infobox">
 			<div class="text">
@@ -273,7 +273,7 @@
 			</div>
 			<div class="infocards two-col">
 				<div class="card">
-					<img src="images/sup.jpg">
+					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/sup.jpg">
 					<h2>Stand up paddle guidad tur</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg på brädan. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1x Bräda 1x Paddel 1x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
@@ -281,7 +281,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="images/sup-yoga.jpg">
+					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/sup-yoga.jpg">
 					<h2>STAND UP PADDLE YOGA</h2>
 					<p>Sätt dina balansmuskler på prov och följ med oss ut i vattnet. Yoga på en surfbräda är något alldeles speciellt och måste upplevas. Yogan tar ungefär 90 minuter.</p>
 					<p>DET HÄR INGÅR: 1 x Bräda 1 x Paddel 1 x Våtdräkt 1x Flytväst Yogalärare i grupp</p>
@@ -290,7 +290,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="images/kajak.jpg">
+					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kajak.jpg">
 					<h2>KAJAKUTFLYKT MED PRIVAT GUIDE</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1 x Kajak 1 x Paddel 1 x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
@@ -298,7 +298,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="images/kids-surf.jpg">
+					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kids-surf.jpg">
 					<h2>KIDS SUMMER SURF</h2>
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
 					<p>tisdag - torsdag - lördag START: 09.00 TIDSÅTGÅNG: 1,5 timme ÅLDER: 6-12 år</p>
@@ -312,11 +312,11 @@
 			<div class="layer2">
 				<div class="circle"> </div>
 			</div>
-			<div class="layer3"><img src="images/eventet.png"></div>
+			<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.png"></div>
 		</div>
 		<div class="infobox">
 			<div class="picture">
-				<img src="images/eventet.jpg">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.jpg">
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -422,7 +422,7 @@ Tack!</textarea>
 			<div class="layer2">
 				<div class="circle"> </div>
 			</div>
-			<div class="layer3"><img src="images/kontakt.png"></div>
+			<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kontakt.png"></div>
 		</div>
 		<div class="infobox" id="kontakt">
 			<div class="picture">
@@ -450,7 +450,7 @@ Tack!</textarea>
 		</div>
 		<dic class="infobox reverse">
 			<div class="picture">
-				<img src="images/karta.png">
+				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/karta.png">
 			</div>
 
 			<div class="text">
@@ -495,7 +495,7 @@ Tack!</textarea>
 			<div class="layer1"> </div>
 		</div>
 		
-		<div class="feet"><img src="images/logo.png"></div>
+		<div class="feet"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></div>
 	</div>
 
 <div id="sidebar">
@@ -503,14 +503,14 @@ Tack!</textarea>
 	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
 </div>
 
-<a href="#"><img class="logo" src="images/logo.png"></a>
+<a href="#"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
 
 <ul>
-	<li style="background-image: url(/images/logiet.png);"><a href="#logiet">Logiet</a></li>
-	<li style="background-image: url(/images/baren.png);"><a href="#baren">Baren</a></li>
-	<li style="background-image: url(/images/centret.png);"><a href="#centret">Centret</a></li>
-	<li style="background-image: url(/images/eventet.png);"><a href="#eventet">Eventet</a></li>
-	<li style="background-image: url(/images/kontakt.png);"><a href="#kontakt">Kontakt</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//logiet.png);"><a href="#logiet">Logiet</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//baren.png);"><a href="#baren">Baren</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//centret.png);"><a href="#centret">Centret</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//eventet.png);"><a href="#eventet">Eventet</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//kontakt.png);"><a href="#kontakt">Kontakt</a></li>
 </ul>
 
 </div>
