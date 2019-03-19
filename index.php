@@ -242,7 +242,7 @@
 		</div>
 		<div class="infobox reverse">
 			<div class="picture">
-			<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/baren.jpg' ), 'full'); ?>
+			<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/baren.jpg' ), 'medium'); ?>
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -506,11 +506,11 @@ Tack!</textarea>
 <a href="#"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
 
 <ul>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//logiet.png);"><a href="#logiet">Logiet</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//baren.png);"><a href="#baren">Baren</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//centret.png);"><a href="#centret">Centret</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//eventet.png);"><a href="#eventet">Eventet</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images//kontakt.png);"><a href="#kontakt">Kontakt</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.png);"><a href="#logiet">Logiet</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.png);"><a href="#baren">Baren</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/centret.png);"><a href="#centret">Centret</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.png);"><a href="#eventet">Eventet</a></li>
+	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kontakt.png);"><a href="#kontakt">Kontakt</a></li>
 </ul>
 
 </div>
