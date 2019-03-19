@@ -467,24 +467,24 @@ Tack!</textarea>
 				</style>
 				<h1>Kontaktuppgifter</h1>
 				<ul class="contact">
-					<li style="background-image: url('images/location.svg');"><p>Eskelhem Toftavägen 374<br>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/location.svg');"><p>Eskelhem Toftavägen 374<br>
 					622 66 Gotlands Tofta<br>
 					<svg class="go" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://goo.gl/maps/NaWWQL8UwrQ2" target="_blank">Karta på Google Maps</a></p></li>
 
-					<li style="background-image: url('images/phone.svg');"><p>0498-29 79 55<br>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p>0498-29 79 55<br>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
-					<li style="background-image: url('images/time.svg');"><h3>Öppettider</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
 					<p>Sänsongsstängt. Öppnar 1 juni.<br>
 					Centret öppet 10.00 - 20.00<br>
 					Kafét 11.30 - 22.00</p></li>
 
-					<li style="background-image: url('images/map.svg');"><h3>Vägbeskrivning</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');"><h3>Vägbeskrivning</h3>
 					<p>Surfogiet hittar du längs väg 140, 15 minuter söder om Visby. Följ vägen mot Klintehamn och sväng av i Tofta när naturen öppnar upp sig och du ser havet.</p></li>
 				
-					<li style="background-image: url('images/bus.svg');">Busslinje 10 avgår från Visby bussterminal mot Burgsvik/Klintehamn.</li>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');">Busslinje 10 avgår från Visby bussterminal mot Burgsvik/Klintehamn.</li>
 
-					<li style="background-image: url('images/heart.svg');"><p><a href="https://instagram.com/surflogiet_gotland/" target="_blank">Instagram</a><br>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/heart.svg');"><p><a href="https://instagram.com/surflogiet_gotland/" target="_blank">Instagram</a><br>
 					<a href="https://facebook.com/surflogietgotland" target="_blank">Facebook</a></p></li>
 
 				</ul>
