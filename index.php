@@ -170,7 +170,7 @@
 	<header>
 		<div class="layers">
 			<div class="layer1">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/header.jpg">
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/header.jpg' ), 'full'); ?>
 			</div>
 			<div class="layer2">
 				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png" alt="SURFLOGIET">
@@ -192,7 +192,7 @@
 		</div>
 		<div class="infobox">
 			<div class="picture">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.jpg">
+			<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/logiet.jpg' ), 'full'); ?>
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -208,21 +208,21 @@
 		</div>
 		<div class="infocards">
 			<div class="card">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/suit.jpg">
-				<h2>Suit</h2>
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/suite.jpg' ), 'full'); ?>
+				<h2>Suite</h2>
 				<p>Surflogiets två sviter är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
 				<p>3495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="#">Boka</a></div>
 			</div>
 			<div class="card">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/double.jpg">
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/double.jpg' ), 'full'); ?>
 				<h2>Double</h2>
 				<p>Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
 				<p>2495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="#">Boka</a></div>
 			</div>
 			<div class="card">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/lodger.jpg">
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/lodger.jpg' ), 'full'); ?>
 				<h2>Lodger</h2>
 				<p>4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
 				<p>4995 kr/natt</p>
@@ -242,7 +242,7 @@
 		</div>
 		<div class="infobox reverse">
 			<div class="picture">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.jpg">
+			<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/baren.jpg' ), 'full'); ?>
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
@@ -273,7 +273,7 @@
 			</div>
 			<div class="infocards two-col">
 				<div class="card">
-					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/sup.jpg">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'full'); ?>
 					<h2>Stand up paddle guidad tur</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg på brädan. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1x Bräda 1x Paddel 1x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
@@ -281,7 +281,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/sup-yoga.jpg">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'full'); ?>
 					<h2>STAND UP PADDLE YOGA</h2>
 					<p>Sätt dina balansmuskler på prov och följ med oss ut i vattnet. Yoga på en surfbräda är något alldeles speciellt och måste upplevas. Yogan tar ungefär 90 minuter.</p>
 					<p>DET HÄR INGÅR: 1 x Bräda 1 x Paddel 1 x Våtdräkt 1x Flytväst Yogalärare i grupp</p>
@@ -290,7 +290,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kajak.jpg">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'full'); ?>
 					<h2>KAJAKUTFLYKT MED PRIVAT GUIDE</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1 x Kajak 1 x Paddel 1 x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
@@ -298,7 +298,7 @@
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet">Boka</a></div>
 				</div>
 				<div class="card">
-					<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kids-surf.jpg">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'full'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
 					<p>tisdag - torsdag - lördag START: 09.00 TIDSÅTGÅNG: 1,5 timme ÅLDER: 6-12 år</p>
@@ -316,7 +316,7 @@
 		</div>
 		<div class="infobox">
 			<div class="picture">
-				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.jpg">
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/eventet.jpg' ), 'full'); ?>
 				<p class="caption">Bildtext</p>
 			</div>
 			<div class="text">
