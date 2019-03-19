@@ -78,13 +78,13 @@
 
 		@font-face {
 			font-family: "Edmondsans";
-			src: url("fonts/Edmondsans-Medium.woff2") format("woff2"); /* Modern Browsers */
+			src: url("<?php echo get_bloginfo('stylesheet_directory'); ?>/fonts/Edmondsans-Medium.woff2") format("woff2"); /* Modern Browsers */
 			font-weight: 500;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: "Edmondsans";
-			src: url("fonts/Edmondsans-Regular.woff2") format("woff2"); /* Modern Browsers */
+			src: url("<?php echo get_bloginfo('stylesheet_directory'); ?>/fonts/Edmondsans-Regular.woff2") format("woff2"); /* Modern Browsers */
 			font-weight: 400;
 			font-style: normal;
 		}
