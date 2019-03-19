@@ -174,7 +174,7 @@
 	<header>
 		<div class="layers">
 			<div class="layer1">
-				<img src="images/header.jpg">
+				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/header.jpg' ), 'full'); ?>
 			</div>
 			<div class="layer2">
 				<video autoplay muted loop>
@@ -182,7 +182,7 @@
 				</video>
 			</div>
 			<div class="layer3">
-				<img class="logo" src="images/logo_white.png" alt="SURFLOGIET">
+				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png" alt="SURFLOGIET">
 			</div>
 			<div class="layer4">
 				<a class="skip-to-content" href="#content">
@@ -364,7 +364,7 @@ margin-top: 1em;
 .form textarea {
 padding: 5px;
 width: 100%;
-border: 1px solid gray;
+border: 1px solid #DDC79C;
 box-sizing: border-box;
 font-family: 'Edmondsans', 'Open Sans', sans-serif;
 font-size: 14px;
@@ -379,7 +379,6 @@ background-color: #DDC79C;
 font-weight: 500;
 text-transform: uppercase;
 text-decoration: underline;
-border: 1px solid black;
 float: right;
 }
 .form .cols {
@@ -439,7 +438,7 @@ Tack!</textarea>
 			</div>
 
 			<div class="text">
-				<h1>Sök jobb hos oss</h1>
+				<h1>Sök jobb</h1>
 				<p>Nu vi rekryterar inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga samt under vilken period. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
 				<ul>
@@ -658,7 +657,6 @@ console.log(data);
 	/* load later */
 	#content {
 		max-width: 720px;
-		padding-top: 20px;
 		margin: 0 auto;
 	}
 	.divider {
