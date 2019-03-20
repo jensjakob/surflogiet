@@ -614,7 +614,7 @@ console.log(data);
 		z-index: 999;
 		position: fixed;
 		top: 0;
-		width: 250px;
+		width: 210px;
 		height: 100%;
 		background-color: #F9F9F9;
 		min-width: 200px;
