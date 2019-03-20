@@ -157,7 +157,7 @@
 	.skip-to-content svg {
 		position: relative;
 		animation: drop 2s 1;
-		top: 0;
+		top: 70%;
 		margin: 0 auto;
 	}
 	@keyframes drop {
