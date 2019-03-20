@@ -1,3 +1,6 @@
+<?php
+	$activity = $_GET['activity'];
+?>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -28,6 +31,9 @@
 			header {
 				background-color: #DDC79C;
 				padding: 40px;
+				background-image: url('<?php echo content_url() ?>/uploads/<?php echo $activity ?>.jpg');
+				background-position: center;
+				background-size: cover;
 			}
 			header .logo {
 				display: block;
@@ -57,7 +63,7 @@
 	</head>
 	<body>
 		<header>
-			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png"></a>
+			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
 		</header>
 		<div id="content">
 			<div class="form">
@@ -141,10 +147,10 @@
 					<label for="activity">Aktivitet:</label>
 					<select id="activity" name="activity">
 						<option> </option>
-						<option>STAND UP PADDLE GUIDAD TUR</option>
-						<option>STAND UP PADDLE YOGA</option>
-						<option>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
-						<option>KIDS SUMMER SURF</option>
+						<option <?php if ($activity == 'sup') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
+						<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
+						<option <?php if ($activity == 'kajak') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
+						<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
 					</select>
 
 					<div class="fifty-fifty">
