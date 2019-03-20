@@ -601,6 +601,7 @@ console.log(data);
 		cursor: e-resize;
 	}
 	#topmenu .switch-language {
+		display: none;
 		position: absolute;
 		top: 0;
 		right: 0;
