@@ -62,7 +62,7 @@
 		<div id="content">
 			<div class="form">
 				<h2>Boka aktivitet</h2>
-				<p>Truffaut skateboard street art PBR jean shorts Shoreditch farm-to-table Austin lo-fi Odd Future occupy. Chia semiotics skateboard, Schlitz messenger bag master cleanse High Life occupy vegan polaroid tote bag leggings. Organic photo booth cray tofu, vegan fixie bitters sriracha.</p>
+				<p></p>
 
 				<p class="status_msg"></p>
 
