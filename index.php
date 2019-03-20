@@ -156,19 +156,16 @@
 	}
 	.skip-to-content svg {
 		position: relative;
-		animation: jump 2s infinite;
+		animation: drop 2s 1;
 		top: 0;
 		margin: 0 auto;
 	}
-	@keyframes jump {
+	@keyframes drop {
 		0% {
 			top: 0;
 		}
-		50% {
-			top: 70%;
-		}
 		100% {
-			top: 0;
+			top: 70%;
 		}
 	}
 	</style>
