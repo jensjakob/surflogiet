@@ -34,7 +34,7 @@ function sendActivityEmail() {
 	'Telefon: '. $phone . "\r\n";
 
 	$to = get_option('admin_email');
-	$subject = "surflogiet.com" . $name;
+	$subject = "surflogiet.com " . $name;
 	$headers = 'From: '. $to . "\r\n" .
 	'Reply-To: ' . $email . "\r\n";
 
@@ -74,7 +74,7 @@ function sendEventEmail() {
 	'Telefon: ' . $phone . "\r\n";
 
 	$to = get_option('admin_email');
-	$subject = "surflogiet.com" . $company;
+	$subject = "surflogiet.com " . $company;
 	$headers = 'From: '. $to . "\r\n" .
 	'Reply-To: ' . $email . "\r\n";
 
