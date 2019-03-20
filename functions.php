@@ -25,18 +25,18 @@ function sendActivityEmail() {
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
 
-	$message = 'Namn: '. $name . "\r\n" .
-	'E-mail: '. $email. "\r\n" .
-	'Phone: '. $phone. "\r\n" .
-	'Datum: '. $date . "\r\n" .
-	'Deltagare: '. $people. "\r\n" .
-	'Aktivitet: '. $activity. "\r\n" .
-	'Meddelande: '. $message. "\r\n" ;
+	$message = $message . "\r\n\r\n" .
+	'Aktivitet: '. $activity . "\r\n" .
+	'Deltagare: '. $people . "\r\n" .
+	'Datum: '. $date . "\r\n\r\n" .
+	'Namn: '. $name . "\r\n" .
+	'E-mail: '. $email . "\r\n" .
+	'Telefon: '. $phone . "\r\n";
 
 	$to = get_option('admin_email');
-	$subject = "surflogiet.com";
+	$subject = "surflogiet.com" . $name;
 	$headers = 'From: '. $to . "\r\n" .
-	'Reply-To: ' . $to . "\r\n";
+	'Reply-To: ' . $email . "\r\n";
 
 	$sent = wp_mail($to, $subject, strip_tags($message), $headers);
 
@@ -67,16 +67,16 @@ function sendEventEmail() {
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
 
-	$message = 'Företag: '. $company . "\r\n" .
-	'Namn: '. $name . "\r\n" .
-	'Email: '. $email. "\r\n" .
-	'Phone: '. $phone. "\r\n" .
-	'Meddelande: '. $message. "\r\n" ;
+	$message = $message . "\r\n\r\n" .
+	'Företag: ' . $company . "\r\n" .
+	'Kontaktperson: ' . $name . "\r\n" .
+	'E-post: ' . $email . "\r\n" .
+	'Telefon: ' . $phone . "\r\n";
 
 	$to = get_option('admin_email');
-	$subject = "surflogiet.com";
+	$subject = "surflogiet.com" . $company;
 	$headers = 'From: '. $to . "\r\n" .
-	'Reply-To: ' . $to . "\r\n";
+	'Reply-To: ' . $email . "\r\n";
 
 	$sent = wp_mail($to, $subject, strip_tags($message), $headers);
 
