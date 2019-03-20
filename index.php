@@ -362,17 +362,19 @@ margin-top: 1em;
 .form textarea {
 padding: 5px;
 width: 100%;
+color: #545454;
 border: 1px solid #DDC79C;
+border-radius: 4px;
 box-sizing: border-box;
 font-family: 'Edmondsans', 'Open Sans', sans-serif;
 font-size: 14px;
-color: #545454;
 }
 .form .button {
 /* display: inline; */
 width: unset;
 margin-top: 10px;
 padding: 10px 20px;
+color: black;
 background-color: #DDC79C;
 font-weight: 500;
 text-transform: uppercase;
