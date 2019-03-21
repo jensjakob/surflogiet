@@ -515,7 +515,7 @@ Tack!</textarea>
 				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
-			<div class="text">
+			<div id="jobb" class="text">
 				<h1>Sök jobb</h1>
 				<p>Nu vi rekryterar inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
