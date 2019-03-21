@@ -370,7 +370,7 @@
 		</div>
 		<div class="text">
 			<p>Vi debiterar 30% av totalbeloppet i förskott. Resterande betalas i samband med utcheckningen.<br>
-			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/open?id=19Y96aqkkKCYUjtr1_oceI-8igjb-1AfA" target="_blank">Fullständiga bokningsvillkor</a></div>
+			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Fullständiga bokningsvillkor</a></div>
 		</div>
 		<div id="baren" class="divider">
 			<div class="layer1"> </div>
