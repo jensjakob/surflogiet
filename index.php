@@ -180,7 +180,7 @@
 				</video>
 			</div>
 			<div class="layer3">
-				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png" alt="SURFLOGIET">
+				<img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="SURFLOGIET">
 			</div>
 			<div class="layer4">
 				<a class="skip-to-content" href="#content">
@@ -615,10 +615,10 @@ console.log(data);
 		z-index: 999;
 		position: fixed;
 		top: 0;
-		width: 210px;
+		width: 150px;
 		height: 100%;
 		background-color: #F9F9F9;
-		min-width: 200px;
+		min-width: 130px;
 		max-width: 80%;
 		box-shadow: 3px 0px 20px 0px rgba(0,0,0,0.3);
 	}
@@ -638,6 +638,7 @@ console.log(data);
 	}
 	#sidebar ul {
 		margin-top: 30px;
+		padding-left: 15px;
 	}
 	#sidebar li {
 		list-style: none;

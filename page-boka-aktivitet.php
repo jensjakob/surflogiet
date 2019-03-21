@@ -32,7 +32,7 @@
 				background-color: #DDC79C;
 				padding: 40px;
 				background-image: url('<?php echo content_url() ?>/uploads/<?php echo $activity ?>.jpg');
-				background-position: center;
+				background-position: <?php echo ($activity == 'kajak') ? "0 65%" : "center" ?>;
 				background-size: cover;
 			}
 			header .logo {
