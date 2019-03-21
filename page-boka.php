@@ -61,10 +61,8 @@
 		</header>
 		
 		<div id="content">
-			<div class="form">
-				<h2>Boka logi</h2>
-				<script async data-form-id="5aeac633b6f28" data-lang="sv" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
-			</div>
+			<h2>Boka logi</h2>
+			<script async data-form-id="5aeac633b6f28" data-lang="sv" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
 		</div>
 
 	<?php wp_footer() ?>
