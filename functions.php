@@ -33,7 +33,8 @@ function sendActivityEmail() {
 	'E-mail: '. $email . "\r\n" .
 	'Telefon: '. $phone . "\r\n";
 
-	$to = get_option('admin_email');
+	// $to = get_option('admin_email');
+	$to = "jakob@toftawebb.se";
 	$subject = "surflogiet.com " . $name;
 	$headers = 'From: '. $to . "\r\n" .
 	'Reply-To: ' . $email . "\r\n";
@@ -73,7 +74,8 @@ function sendEventEmail() {
 	'E-post: ' . $email . "\r\n" .
 	'Telefon: ' . $phone . "\r\n";
 
-	$to = get_option('admin_email');
+	// $to = get_option('admin_email');
+	$to = "jakob@toftawebb.se";
 	$subject = "surflogiet.com " . $company;
 	$headers = 'From: '. $to . "\r\n" .
 	'Reply-To: ' . $email . "\r\n";
