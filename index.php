@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -28,54 +27,11 @@
 			width: 100%;
 			z-index: 100;
 		}
-		/* @media (max-width: 766px) {
-			#topmenu {
-				background: white;
-				filter: opacity(0.9);
-			}
-		} */
-
 		#sidebar,
 		#content,
 		.skip-to-content {
 			display: none;
 		}
-		/* header {
-			display: flex;
-			height: 101%;
-			width: 100%;
-			background-color: #DDC79C;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
-			justify-content: space-between;
-		}
-		header .top {
-
-			flex-grow: 1;
-		}
-		header .logo {
-			color: white;
-			display: block;
-			width: 280px;
-			max-width: 80%;
-		}
-		header .skip-to-content {
-			
-			flex-grow: 1;
-			display: flex;
-			align-items: flex-end;
-			align-content: space-around;
-			width: 50%;
-			min-width: 100px;
-		}
-		.skip-to-content img {
-			position: relative;
-			animation: jump 2s infinite;
-			bottom: 50%;
-			margin: 0 auto;
-		} */
-
 		@font-face {
 			font-family: "Edmondsans";
 			src: url("<?php echo get_bloginfo('stylesheet_directory'); ?>/fonts/Edmondsans-Medium.woff2") format("woff2"); /* Modern Browsers */
@@ -89,8 +45,74 @@
 			font-style: normal;
 		}
 
+		/* HEADER */
+		header {
+			height: 101%;
+			max-height: 178vw;
+			overflow: hidden;
+		}
+		header .layers {
+			position: relative;
+			height: 101%;
+		}
+		.layers > div {
+			position: absolute;
+		}
+		header .layer1 {
+			width: 100%;
+			height: 100%;
+		}
+		header .layer1 img {
+			min-height: 101%;
+			min-width: 100%;
+			filter: blur(8px);
+			width: auto;
+		}
+		header .layer2 video {
+			min-height: 101vh;
+			min-width: 100vw;
+		}
+		header .layer3 {
+			top: 0;
+			height: 101%;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		header .logo {
+			color: white;
+			display: block;
+			width: 280px;
+			max-width: 80%;
+		}
+		header .layer4 {
+			width: 100%;
+			height: 30%;
+			bottom: 0;
+			text-align: center;
+		}
+		.skip-to-content {
+			width: 50%;
+			height: 100%;
+			min-width: 100px;
+			margin: 0 auto;
+		}
+		.skip-to-content svg {
+			position: relative;
+			animation: drop 2s 1;
+			top: 70%;
+			margin: 0 auto;
+		}
+		@keyframes drop {
+			0% {
+				top: 0;
+			}
+			100% {
+				top: 70%;
+			}
+		}
 	</style>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body class="lang-sv">
 	<div id="topmenu">
@@ -101,74 +123,6 @@
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
 		</div>
 	</div>
-	<style>
-	header {
-		height: 101%;
-		max-height: 178vw;
-		overflow: hidden;
-	}
-	header .layers {
-		position: relative;
-		height: 101%;
-	}
-	.layers > div {
-		position: absolute;
-	}
-	header .layer1 {
-		width: 100%;
-		height: 100%;
-	}
-	header .layer1 img {
-		min-height: 101%;
-		min-width: 100%;
-		filter: blur(8px);
-		width: auto;
-	}
-	header .layer2 video {
-		min-height: 101vh;
-		min-width: 100vw;
-	}
-	header .layer3 {
-		top: 0;
-		height: 101%;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	header .logo {
-		color: white;
-		display: block;
-		width: 280px;
-		max-width: 80%;
-	}
-	header .layer4 {
-		width: 100%;
-		height: 30%;
-		bottom: 0;
-		text-align: center;
-	}
-	.skip-to-content {
-		width: 50%;
-		height: 100%;
-		min-width: 100px;
-		margin: 0 auto;
-	}
-	.skip-to-content svg {
-		position: relative;
-		animation: drop 2s 1;
-		top: 70%;
-		margin: 0 auto;
-	}
-	@keyframes drop {
-		0% {
-			top: 0;
-		}
-		100% {
-			top: 70%;
-		}
-	}
-	</style>
 	<header>
 		<div class="layers">
 			<div class="layer1">
@@ -189,6 +143,186 @@
 			</div>
 		</div>
 	</header>
+	<style>
+	#content {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	.divider {
+		position: relative;
+		height: 50px;
+		margin: 10px;
+	}
+	.divider > div {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.divider .layer1 {
+		height: 23px;
+		border-bottom: 3px solid #DDC79C;
+	}
+	.circle {
+		width: 50px;
+		height: 50px;
+		background: #DDC79C;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+	.divider .layer3 img {
+		margin-top: 7px;
+		width: 35px;
+	}
+	.reverse {
+		flex-direction: row-reverse;
+	}
+	.infobox {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.infobox img {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+	.infobox .picture,
+	.infobox .text {
+		min-width: 250px;
+		width: 300px;
+		flex-grow: 1;
+		margin: 10px;
+	}
+	.text {
+		margin: 10px;
+	}
+	h1 {
+		margin-top: 0;
+		margin-bottom: 0.4em;
+	}
+	h1, h2, h3 {
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: 500;
+	}
+	h1, h2 {
+		display: inline-block;
+		padding-bottom: 0.4em;
+		border-bottom: 3px solid #545454;
+	}
+	h3 {
+		margin-bottom: -10px;
+	}
+	p,
+	li {
+		line-height: 1.45em;
+	}
+	p.caption {
+		margin: 0;
+		font-size: 0.8em;
+	}
+	a {
+		color: black;
+	}
+	.go {
+		margin-left: -4px;
+		vertical-align: middle;
+		margin-bottom: 2px;
+	}
+	.go svg {
+		vertical-align: middle;
+		margin-bottom: 2px;
+	}
+	#hello-video {
+		position: absolute;
+		top: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+	.infocards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.infocards .card {
+		min-width: 220px;
+		width: 220px;
+		flex-grow: 1;
+		margin: 10px;
+	}
+	.infocards.two-col .card  {
+		min-width: 241px; /* breakpoint +1 */
+		width: 241px;
+	}
+	.infocards img {
+		width: 100%;
+		height: auto;
+	}
+	.feet {
+		width: 100%;
+		text-align: center;
+	}
+	.feet img {
+		width: 200px;
+		max-width: 60%;
+		margin: 20px 0 90px 0;
+	}
+
+	/* FORM */
+	.form form {
+		width: 100%;
+	}
+	.form h2,
+	.form p {
+		margin: 10px;
+	}
+	label {
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-top: 1em;
+	}
+	.form input,
+	.form textarea {
+		padding: 5px;
+		width: 100%;
+		color: #545454;
+		border: 1px solid #DDC79C;
+		border-radius: 4px;
+		box-sizing: border-box;
+		font-family: 'Edmondsans', 'Open Sans', sans-serif;
+		font-size: 14px;
+	}
+	.form .button {
+		width: unset;
+		margin-top: 10px;
+		padding: 10px 20px;
+		color: black;
+		background-color: #DDC79C;
+		font-weight: 500;
+		text-transform: uppercase;
+		text-decoration: underline;
+		float: right;
+	}
+	.form .cols {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.form .col1,
+	.form .col2 {
+		padding: 0 10px;
+		width: 320px;
+		min-width: 250px;
+		flex-grow: 1;
+	}
+	.form #phone {
+		display: block;
+		width: 50%;
+	}
+	</style>
 	<div id="content">
 		<div id="logiet" class="divider">
 			<div class="layer1"> </div>
@@ -342,61 +476,7 @@
 
 			<p class="status_msg"></p>
 
-			<form action="" method="post">
-<style>
-.form form {
-width: 100%;
-}
-.form h2,
-.form p {
-margin: 10px;
-}
-label {
-display: inline-block;
-font-size: 12px;
-font-weight: 500;
-text-transform: uppercase;
-margin-top: 1em;
-}
-.form input,
-.form textarea {
-padding: 5px;
-width: 100%;
-color: #545454;
-border: 1px solid #DDC79C;
-border-radius: 4px;
-box-sizing: border-box;
-font-family: 'Edmondsans', 'Open Sans', sans-serif;
-font-size: 14px;
-}
-.form .button {
-/* display: inline; */
-width: unset;
-margin-top: 10px;
-padding: 10px 20px;
-color: black;
-background-color: #DDC79C;
-font-weight: 500;
-text-transform: uppercase;
-text-decoration: underline;
-float: right;
-}
-.form .cols {
-display: flex;
-flex-wrap: wrap;
-}
-.form .col1,
-.form .col2 {
-padding: 0 10px;
-width: 320px;
-min-width: 250px;
-flex-grow: 1;
-}
-.form #phone {
-display: block;
-width: 50%;
-}
-</style>
+			<form action="" method="post">>
 			<div class="cols">
 				<div class="col1">
 					<label for="company">Företag:</label>
@@ -425,21 +505,21 @@ Tack!</textarea>
 			</form>
 		</div>
 
-		<div id="kontakt" class="divider">
+		<div class="divider">
 			<div class="layer1"> </div>
 			<div class="layer2">
 				<div class="circle"> </div>
 			</div>
 			<div class="layer3"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kontakt.png"></div>
 		</div>
-		<div class="infobox" id="kontakt">
+		<div class="infobox">
 			<div class="picture">
 				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
 			<div class="text">
 				<h1>Sök jobb</h1>
-				<p>Nu vi rekryterar inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga samt under vilken period. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
+				<p>Nu vi rekryterar inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
 				<ul>
 					<li>Arbetsledare</li>
@@ -453,10 +533,10 @@ Tack!</textarea>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://docs.google.com/forms/d/e/1FAIpQLSfuJzSqdImXaod1iCokR3Uo1KJKgJi0jkp5DfG5jm-KQI1Nfw/viewform" target="_blank">Ansök nu</a></div>
 			</div>
 		</div>
-		<div id="kontakt" class="divider">
+		<div class="divider">
 			<div class="layer1"> </div>
 		</div>
-		<dic class="infobox reverse">
+		<div class="infobox reverse">
 			<div class="picture">
 				<img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/karta.png">
 			</div>
@@ -497,7 +577,7 @@ Tack!</textarea>
 
 				</ul>
 			</div>
-		</dic>
+		</div>
 
 		<div id="kontakt" class="divider">
 			<div class="layer1"> </div>
@@ -507,20 +587,19 @@ Tack!</textarea>
 	</div>
 
 <div id="sidebar">
-<div class="sidebar-close">
-	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-</div>
+	<div class="sidebar-close">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+	</div>
 
-<a href="#"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
+	<a href="#"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
 
-<ul>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.png);"><a href="#logiet">Logiet</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.png);"><a href="#baren">Baren</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/centret.png);"><a href="#centret">Centret</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.png);"><a href="#eventet">Eventet</a></li>
-	<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kontakt.png);"><a href="#kontakt">Kontakt</a></li>
-</ul>
-
+	<ul>
+		<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logiet.png);"><a href="#logiet">Logiet</a></li>
+		<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/baren.png);"><a href="#baren">Baren</a></li>
+		<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/centret.png);"><a href="#centret">Centret</a></li>
+		<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/eventet.png);"><a href="#eventet">Eventet</a></li>
+		<li style="background-image: url(<?php echo get_bloginfo('stylesheet_directory'); ?>/images/kontakt.png);"><a href="#kontakt">Kontakt</a></li>
+	</ul>
 </div>
 
 <script
@@ -531,12 +610,6 @@ Tack!</textarea>
 <script>
 	$(".switch-language").click(function() {
 		$("body").toggleClass("lang-sv lang-en");
-	});
-	$(".skip-to-content").click(function() {
-		// event.preventDefault();
-		// $([document.documentElement, document.body]).animate({
-		// 	scrollTop: $("#content").offset().top
-		// }, 2000);
 	});
 	$(".sidebar-open").click(function() {
 		$("#sidebar").toggle();
@@ -555,39 +628,38 @@ Tack!</textarea>
 	// ready for actions
 	$("#topmenu").show();
 
-$(".form form").submit(function(e){
-e.preventDefault(e);
-var $this = $(this);
-var data = {
-	company: $this.find("#company").val(),
-	name: $this.find("#name").val(),
-	email: $this.find("#email").val(),
-	phone: $this.find("#phone").val(),
-	message: $this.find("#message").val(),
-	action: 'sendEventEmail',
-};
-var $msg = $(".status_msg");
-$this.css({opacity: 0.3});
-$.ajax({
-	type: "POST",
-	url: '<?php echo admin_url( 'admin-ajax.php' ) ?>',
-	data: data,
-	success: function (json) {
-		$this.css({opacity: 1});
-		if(json.status === 'OK'){
-			$msg.html(json.msg);
-			$msg.removeClass("error");
-			$this.slideUp();
-		}else{
-			$msg.html(json.msg);
-			$msg.addClass("error");
-		}
-	},
-	dataType: 'json'
-});
-console.log(data);
-});
-
+	$(".form form").submit(function(e){
+		e.preventDefault(e);
+		var $this = $(this);
+		var data = {
+			company: $this.find("#company").val(),
+			name: $this.find("#name").val(),
+			email: $this.find("#email").val(),
+			phone: $this.find("#phone").val(),
+			message: $this.find("#message").val(),
+			action: 'sendEventEmail',
+		};
+		var $msg = $(".status_msg");
+		$this.css({opacity: 0.3});
+		$.ajax({
+			type: "POST",
+			url: '<?php echo admin_url( 'admin-ajax.php' ) ?>',
+			data: data,
+			success: function (json) {
+				$this.css({opacity: 1});
+				if(json.status === 'OK'){
+					$msg.html(json.msg);
+					$msg.removeClass("error");
+					$this.slideUp();
+				}else{
+					$msg.html(json.msg);
+					$msg.addClass("error");
+				}
+			},
+			dataType: 'json'
+		});
+		console.log(data);
+	});
 </script>
 <style>
 	/* hidden content */
@@ -655,135 +727,9 @@ console.log(data);
 		padding: 0.75em 3em 0.5em 4em;
 		margin-left: -1em;
 	}
-
-	/* load later */
-	#content {
-		max-width: 720px;
-		margin: 0 auto;
-	}
-	.divider {
-		position: relative;
-		height: 50px;
-		margin: 10px;
-	}
-	.divider > div {
-		position: absolute;
-		top: 0;
-		width: 100%;
-		text-align: center;
-		margin-top: 10px;
-	}
-	.divider .layer1 {
-		height: 23px;
-		border-bottom: 3px solid #DDC79C;
-	}
-	.circle {
-		width: 50px;
-		height: 50px;
-		background: #DDC79C;
-		margin: 0 auto;
-		border-radius: 50%;
-	}
-	.divider .layer3 img {
-		margin-top: 7px;
-		width: 35px;
-	}
-	.reverse {
-		flex-direction: row-reverse;
-	}
-	.infobox {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.infobox img {
-		display: inline-block;
-		width: 100%;
-		height: auto;
-	}
-	.infobox .picture,
-	.infobox .text {
-		min-width: 250px;
-		width: 300px;
-		flex-grow: 1;
-		margin: 10px;
-	}
-	.text {
-		margin: 10px;
-	}
-	h1 {
-		margin-top: 0;
-		margin-bottom: 0.4em;
-	}
-	h1, h2, h3 {
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		font-weight: 500;
-	}
-	h1, h2 {
-		display: inline-block;
-		padding-bottom: 0.4em;
-		border-bottom: 3px solid #545454;
-	}
-	h3 {
-		margin-bottom: -10px;
-	}
-	p,
-	li {
-		line-height: 1.45em;
-	}
-	p.caption {
-		margin: 0;
-		font-size: 0.8em;
-	}
-	a {
-		color: black;
-	}
-	.go {
-		margin-left: -4px;
-		vertical-align: middle;
-		margin-bottom: 2px;
-	}
-	.go svg {
-		vertical-align: middle;
-		margin-bottom: 2px;
-	}
-	#hello-video {
-		position: absolute;
-		top: 0;
-		width: 100vw;
-		height: 100vh;
-	}
-	.infocards {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	.infocards .card {
-		min-width: 220px;
-		width: 220px;
-		flex-grow: 1;
-		margin: 10px;
-	}
-	.infocards.two-col .card  {
-		min-width: 241px; /* breakpoint +1 */
-		width: 241px;
-	}
-	.infocards img {
-		width: 100%;
-		height: auto;
-	}
-	.feet {
-		width: 100%;
-		text-align: center;
-	}
-	.feet img {
-		width: 200px;
-		max-width: 60%;
-		margin: 20px 0 90px 0;
-	}
 </style>
 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <?php wp_footer() ?>
 </body>
 </html>

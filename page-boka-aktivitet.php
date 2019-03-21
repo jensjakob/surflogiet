@@ -59,6 +59,8 @@
 				font-weight: 400;
 				font-style: normal;
 			}
+
+
 		</style>
 	</head>
 	<body>
@@ -74,113 +76,45 @@
 
 				<form action="" method="post">
 		
-		<style>
-		.form form {
-			width: 100%;
-		}
-		.form h2,
-		.form p {
-			margin: 10px;
-		}
-		label {
-			display: block;
-			font-size: 12px;
-			font-weight: 500;
-			text-transform: uppercase;
-			margin-top: 1em;
-		}
-		.form input,
-		.form textarea,
-		.form select {
-			padding: 5px;
-			width: 100%;
-			color: #545454;
-			border: 1px solid #DDC79C;
-			border-radius: 4px;
-			box-sizing: border-box;
-			font-family: 'Edmondsans', 'Open Sans', sans-serif;
-			font-size: 14px;
-		}
-		.form .button {
-			/* display: inline; */
-			width: unset;
-			margin-top: 10px;
-			padding: 10px 20px;
-			color: black;
-			background-color: #DDC79C;
-			font-weight: 500;
-			text-transform: uppercase;
-			text-decoration: underline;
-			float: right;
-		}
-		.form .cols {
-			display: flex;
-			flex-wrap: wrap;
-		}
-		.form .col1,
-		.form .col2 {
-			padding: 0 10px;
-			width: 320px;
-			min-width: 250px;
-			flex-grow: 1;
-		}
-		.form #date {
-			padding: 2px;
-		}
-		.form #phone {
-			width: 50%;
-		}
+				<div class="cols">
+					<div class="col1">
+						<label for="activity">Aktivitet:</label>
+						<select id="activity" name="activity">
+							<option> </option>
+							<option <?php if ($activity == 'sup') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
+							<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
+							<option <?php if ($activity == 'kajak') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
+							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
+						</select>
 
-		.fifty-fifty {
-			display: flex;
-		}
-		.fifty-fifty div:nth-child(1) {
-			padding-right: 10px;
-		}
-		.fifty-fifty div {
-			width: 50%;
-		}
-		</style>
-
-			<div class="cols">
-				<div class="col1">
-					<label for="activity">Aktivitet:</label>
-					<select id="activity" name="activity">
-						<option> </option>
-						<option <?php if ($activity == 'sup') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
-						<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
-						<option <?php if ($activity == 'kajak') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
-						<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
-					</select>
-
-					<div class="fifty-fifty">
-						<div>
-							<label for="date">Datum:</label>
-							<input id="date" name="date" type="date">
+						<div class="fifty-fifty">
+							<div>
+								<label for="date">Datum:</label>
+								<input id="date" name="date" type="date">
+							</div>
+							<div>
+								<label for="people">Antal personer:</label>
+								<input id="people" name="people" type="number" min="0" max="1000">
+							</div>
 						</div>
-						<div>
-							<label for="people">Antal personer:</label>
-							<input id="people" name="people" type="number" min="0" max="1000">
-						</div>
+
+						<label for="name">Namn:</label>
+						<input id="name" name="name" type="text">
+
+						<label for="email">E-post:</label>
+						<input id="email" name="email" type="email">
+						
+						<label for="phone">Telefon:</label>
+						<input id="phone" name="phone" type="tel">
 					</div>
-
-					<label for="name">Namn:</label>
-					<input id="name" name="name" type="text">
-
-					<label for="email">E-post:</label>
-					<input id="email" name="email" type="email">
-					
-					<label for="phone">Telefon:</label>
-					<input id="phone" name="phone" type="tel">
+					<div class="col2">
+						<label for="message">Meddelande:</label>
+						<textarea id="message" name="message" rows="10"></textarea>
+						<input class="button" type="submit" value="Skicka">
+					</div>
 				</div>
-				<div class="col2">
-					<label for="message">Meddelande:</label>
-					<textarea id="message" name="message" rows="10"></textarea>
-					<input class="button" type="submit" value="Skicka">
-				</div>
+				</form>
 			</div>
-			</form>
-		</div>
 		</div>
 
 <script
