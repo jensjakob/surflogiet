@@ -474,7 +474,7 @@
 
 			<p class="status_msg"></p>
 
-			<form action="" method="post">>
+			<form action="" method="post">
 			<div class="cols">
 				<div class="col1">
 					<label for="company">Företag:</label>
