@@ -349,7 +349,7 @@
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/suite.jpg' ), 'thumb'); ?>
 				<h2>Suite</h2>
-				<p>Surflogiets två sviter är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
+				<p>Surflogiets svit är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
 				<p>3495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka">Boka</a></div>
 			</div>
@@ -470,7 +470,7 @@
 		</div>
 		<div class="form">
 			<h2>Intresseanmälan</h2>
-			<p>Mattias kommer ta hand om ditt ärende. Du kan nå Mattias direkt via telefon och mail; <a href="mailto:mattias@surflogiet.com">mattias@surflogiet.com</a></p>
+			<p>Mattias kommer ta hand om ditt ärende. Du kan nå Mattias direkt via telefon och mail; <a href="mailto:mattias@surflogiet.com">mattias@surflogiet.com</a> och 0738 39 55 99</p>
 
 			<p class="status_msg"></p>
 
@@ -517,7 +517,7 @@ Tack!</textarea>
 
 			<div id="jobb" class="text">
 				<h1>Sök jobb</h1>
-				<p>Nu vi rekryterar inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
+				<p>Nu rekryterar vi inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
 				<ul>
 					<li>Arbetsledare</li>
