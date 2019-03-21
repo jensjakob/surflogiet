@@ -505,7 +505,7 @@ Tack!</textarea>
 			</form>
 		</div>
 
-		<div class="divider">
+		<div id="kontakt" class="divider">
 			<div class="layer1"> </div>
 			<div class="layer2">
 				<div class="circle"> </div>
@@ -579,7 +579,7 @@ Tack!</textarea>
 			</div>
 		</div>
 
-		<div id="kontakt" class="divider">
+		<div class="divider">
 			<div class="layer1"> </div>
 		</div>
 		

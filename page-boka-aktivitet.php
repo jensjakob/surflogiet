@@ -60,7 +60,72 @@
 				font-style: normal;
 			}
 
+			/* FORM */
+			.form form {
+				width: 100%;
+			}
+			.form h2,
+			.form p {
+				margin: 10px;
+			}
+			label {
+				display: block;
+				font-size: 12px;
+				font-weight: 500;
+				text-transform: uppercase;
+				margin-top: 1em;
+			}
+			.form input,
+			.form textarea,
+			.form select {
+				padding: 5px;
+				width: 100%;
+				color: #545454;
+				border: 1px solid #DDC79C;
+				border-radius: 4px;
+				box-sizing: border-box;
+				font-family: 'Edmondsans', 'Open Sans', sans-serif;
+				font-size: 14px;
+			}
+			.form .button {
+				/* display: inline; */
+				width: unset;
+				margin-top: 10px;
+				padding: 10px 20px;
+				color: black;
+				background-color: #DDC79C;
+				font-weight: 500;
+				text-transform: uppercase;
+				text-decoration: underline;
+				float: right;
+			}
+			.form .cols {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.form .col1,
+			.form .col2 {
+				padding: 0 10px;
+				width: 320px;
+				min-width: 250px;
+				flex-grow: 1;
+			}
+			.form #date {
+				padding: 2px;
+			}
+			.form #phone {
+				width: 50%;
+			}
 
+			.fifty-fifty {
+				display: flex;
+			}
+			.fifty-fifty div:nth-child(1) {
+				padding-right: 10px;
+			}
+			.fifty-fifty div {
+				width: 50%;
+			}
 		</style>
 	</head>
 	<body>
