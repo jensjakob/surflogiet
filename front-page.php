@@ -500,7 +500,7 @@ Tack!</textarea>
 			</form>
 		</div>
 
-		<div id="kontakt" class="divider">
+		<div id="kontakt" class="divider"><span id="jobb"></span>
 			<div class="layer1"> </div>
 			<div class="layer2">
 				<div class="circle"> </div>
@@ -512,7 +512,7 @@ Tack!</textarea>
 				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
-			<div id="jobb" class="text">
+			<div class="text">
 				<h1>Sök jobb</h1>
 				<p>Nu rekryterar vi inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
