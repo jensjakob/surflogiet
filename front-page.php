@@ -350,21 +350,18 @@
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/suite.jpg' ), 'thumb'); ?>
 				<h2>Suite</h2>
 				<p>Surflogiets svit är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
-				<p>3495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka">Boka</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/double.jpg' ), 'thumb'); ?>
 				<h2>Double</h2>
 				<p>Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
-				<p>2495 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka">Boka</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/lodger.jpg' ), 'thumb'); ?>
 				<h2>Lodger</h2>
 				<p>4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
-				<p>4995 kr/natt</p>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka">Boka</a></div>
 			</div>
 		</div>
@@ -393,8 +390,8 @@
 
 				<p>Låt barnen springa själva bort till lekområdet eller använda naturens egna sandlåda.</p>
 
-				<p>1. Ingen möjlighet till bordsreservation<br>
-				2. Vid sämre väder öppnar vi tältet.</p>
+				<p>Här hittar du ingen meny, men du kan lita på att vi har något för barnen, vegetarianer, veganer, gluten och laktosintolleranta. Men, strandbordet då? Går det att boka för mig och mina vänner?  Prata med Mattias så kanske han löser det! <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a><br>
+Vi ses!</p>
 			</div>
 		</div>
 		<div id="centret" class="divider">
