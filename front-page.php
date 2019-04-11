@@ -339,7 +339,7 @@
 			<div class="text">
 				<h1>Logiet</h1>
 				
-				<p>På Surflogiet sover du gott i de bästa sängarna som finns. Byggda i endast naturmaterial så som tagel, bomull, lin, ull och svensk fura. Vi tror att återhämtning under natten är nyckeln till sprudlande energi på dagen. Därför är vi stolta över att vara en hästensanläggning så vi kan ge dig de bästa förutsättningarna för en god natts sömmn.</p>
+				<p>På Surflogiet sover du gott i de bästa sängarna som finns. Byggda i endast naturmaterial så som tagel, bomull, lin, ull och svensk fura. Vi tror att återhämtning under natten är nyckeln till sprudlande energi på dagen. Därför är vi stolta över att vara en hästensanläggning så vi kan ge dig de bästa förutsättningarna för en god natts sömn.</p>
 				
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka">Boka nu</a></div>
 				
