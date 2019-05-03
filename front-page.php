@@ -467,7 +467,7 @@ Vi ses!</p>
 		</div>
 		<div class="form">
 			<h2>Intresseanmälan</h2>
-			<p>Mattias kommer ta hand om ditt ärende. Du kan nå Mattias direkt via telefon och mail; <a href="mailto:mattias@surflogiet.com">mattias@surflogiet.com</a> och 0738 39 55 99</p>
+			<p>Mattias kommer ta hand om ditt ärende. Du kan nå Mattias direkt via telefon och mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> och 0738 39 55 99</p>
 
 			<p class="status_msg"></p>
 
