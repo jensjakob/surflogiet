@@ -413,7 +413,7 @@ Vi ses!</p>
 					<h2>Stand up paddle guidad tur</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg på brädan. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1x Bräda 1x Paddel 1x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
-					<p>1250 kr</p>
+					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Boka</a></div>
 				</div>
 				<div class="card">
@@ -430,7 +430,7 @@ Vi ses!</p>
 					<h2>KAJAKUTFLYKT MED GUIDE</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
 					<p>DET HÄR INGÅR: 1 x Kajak 1 x Paddel 1 x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
-					<p>1250 kr</p>
+					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Boka</a></div>
 				</div>
 				<div class="card">
@@ -438,7 +438,7 @@ Vi ses!</p>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
 					<p>tisdag - torsdag - lördag START: 09.00 TIDSÅTGÅNG: 1,5 timme ÅLDER: 6-12 år</p>
-					<p>995 kr</p>
+					<p>650 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Boka</a></div>
 				</div>
 			</div>
