@@ -719,7 +719,7 @@ Tack!</textarea>
 	#sidebar li a {
 		color: black;
 		text-decoration: none;
-		padding: 0.75em 3em 0.5em 4em;
+		padding: 0.75em 0 0.5em 4em;
 		margin-left: -1em;
 	}
 </style>
