@@ -608,7 +608,7 @@ Vi är ett företag som älskar ert koncept. Kan ni hjälpa oss att ge förslag 
 Vi blir ungefär X personer.
 
 Tack!</textarea>
-					<textarea id="message" name="message" rows="10" class="lang-en></textarea>
+					<textarea id="message" name="message" rows="10" class="lang-en"></textarea>
 					<input class="button" type="submit" value="Skicka" class="lang-sv">
 					<input class="button" type="submit" value="Send" class="lang-en">
 				</div>
