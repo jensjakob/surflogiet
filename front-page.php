@@ -603,13 +603,13 @@
 				</div>
 				<div class="col2">
 					<label for="message">Message:</label>
-					<textarea id="message" name="message" rows="10" class="sv">Hej Surflogiet.
+					<textarea class="message sv" name="message" rows="10">Hej Surflogiet.
 Vi är ett företag som älskar ert koncept. Kan ni hjälpa oss att ge förslag på mat, boende och aktivitet för oss?
 
 Vi blir ungefär X personer.
 
 Tack!</textarea>
-					<textarea id="message" name="message" rows="10" class="en"></textarea>
+					<textarea class="message en" name="message" rows="10"></textarea>
 					<input class="button sv" type="submit" value="Skicka">
 					<input class="button en" type="submit" value="Send">
 				</div>
@@ -771,7 +771,7 @@ Tack!</textarea>
 			name: $this.find("#name").val(),
 			email: $this.find("#email").val(),
 			phone: $this.find("#phone").val(),
-			message: $this.find("#message").val(),
+			message: $this.find(".message:visible").val(),
 			action: 'sendEventEmail',
 		};
 		var $msg = $(".status_msg");
