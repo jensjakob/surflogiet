@@ -371,11 +371,12 @@
 			</div>
 		</div>
 		<div class="text">
-			<p class="sv">Vi debiterar 30% av totalbeloppet i förskott. Resterande betalas i samband med utcheckningen.<br>
-			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Fullständiga bokningsvillkor</a></div></p>
+			<p class="sv">Vi debiterar 30% av totalbeloppet i förskott. Resterande betalas i samband med utcheckningen.</p>
+			<p class="en">We charge 30% of the total amount in advance. The remainder is paid in connection with the check-out.</p>
 
-			<p class="en">We charge 30% of the total amount in advance. The remainder is paid in connection with the check-out.<br>
-			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Complete booking conditions</a></div></p>
+			<div class="go sv"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Fullständiga bokningsvillkor</a></div>
+
+			<div class="go en"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Complete booking conditions</a></div>
 		</div>
 		<div id="baren" class="divider">
 			<div class="layer1"> </div>
@@ -468,7 +469,7 @@
 
 			</div>
 			<div class="infocards two-col">
-				<div class="card" class="sv">
+				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
 					<h2>Stand up paddle guidad tur</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg på brädan. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
@@ -476,7 +477,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Boka</a></div>
 				</div>
-				<div class="card" class="en">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
 					<h2>GUIDED STAND UP PADDLEBOARD TOUR</h2>
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up on the board. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 3 hours.</p>
@@ -484,7 +485,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Book now</a></div>
 				</div>
-				<div class="card" class="sv">
+				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLE YOGA</h2>
 					<p>Sätt dina balansmuskler på prov och följ med oss ut i vattnet. Yoga på en surfbräda är något alldeles speciellt och måste upplevas. Yogan tar ungefär 90 minuter.</p>
@@ -493,7 +494,7 @@
 					<p>190 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Boka</a></div>
 				</div>
-				<div class="card" class="en">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLEBOARD YOGA</h2>
 					<p>Put your core muscles and balance to the test and follow us out onto the water. Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 90 minutes.</p>
@@ -502,7 +503,7 @@
 					<p>190 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Book now</a></div>
 				</div>
-				<div class="card" class="sv">
+				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>KAJAKUTFLYKT MED GUIDE</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
@@ -510,7 +511,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Boka</a></div>
 				</div>
-				<div class="card" class="en">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>KAYAKING TOUR WITH GUIDE</h2>
 					<p>We take you on a fun water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up and away on the kayak. Halfway well go ashore and have a Fika Picnic together in the astounding Gotlandic nature. Approx 3 hours.</p>
@@ -518,7 +519,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Book now</a></div>
 				</div>
-				<div class="card" class="sv">
+				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
@@ -526,7 +527,7 @@
 					<p>650 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Boka</a></div>
 				</div>
-				<div class="card" class="en">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma and proudly worn T-shirt that is handed out on the last day. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding, flying a training kite and more..</p>
@@ -609,8 +610,8 @@ Vi blir ungefär X personer.
 
 Tack!</textarea>
 					<textarea id="message" name="message" rows="10" class="en"></textarea>
-					<input class="button" type="submit" value="Skicka" class="sv">
-					<input class="button" type="submit" value="Send" class="en">
+					<input class="button sv" type="submit" value="Skicka">
+					<input class="button en" type="submit" value="Send">
 				</div>
 			</div>
 			</form>
@@ -628,7 +629,7 @@ Tack!</textarea>
 				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
-			<div class="text" class="sv">
+			<div class="text sv">
 				<h1>Sök jobb</h1>
 				<p>Nu rekryterar vi inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
@@ -644,7 +645,7 @@ Tack!</textarea>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://docs.google.com/forms/d/e/1FAIpQLSfuJzSqdImXaod1iCokR3Uo1KJKgJi0jkp5DfG5jm-KQI1Nfw/viewform" target="_blank">Ansök nu</a></div>
 			</div>
 
-			<div class="text" class="en">
+			<div class="text en">
 				<h1>APPLY FOR WORK</h1>
 				<p>We are currently recruiting for ‘The Summer of 2019’. Below you can see available positions. Currently live on Gotland or have housing on the island, then you are given preference!</p>
 
