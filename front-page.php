@@ -339,11 +339,11 @@
 			<div class="text">
 				<h1>Logiet</h1>
 				
-				<p class="lang-sv">På Surflogiet sover du gott i de bästa sängarna som finns. Byggda i endast naturmaterial så som tagel, bomull, lin, ull och svensk fura. Vi tror att återhämtning under natten är nyckeln till sprudlande energi på dagen. Därför är vi stolta över att vara en hästensanläggning så vi kan ge dig de bästa förutsättningarna för en god natts sömn.</p>
+				<p class="sv">På Surflogiet sover du gott i de bästa sängarna som finns. Byggda i endast naturmaterial så som tagel, bomull, lin, ull och svensk fura. Vi tror att återhämtning under natten är nyckeln till sprudlande energi på dagen. Därför är vi stolta över att vara en hästensanläggning så vi kan ge dig de bästa förutsättningarna för en god natts sömn.</p>
 				
-				<p class="lang-en">At Surflogiet you sleep beneath the 100yr old pines on ocean front sands and seaside sounds. Each tent is uniquely decorated, with a fully stocked bar fridge. Request champagne on arrival by the ambient fireplace that warms more than the heart. Come night, sleep tight on the best beds of the world, each handcrafted with the finest all-natural materials designed for a cosy comforting sleep. We believe night recuperations are key to sparkling energetic days, & why we take pride in being a Hästens establishment.</p>
+				<p class="en">At Surflogiet you sleep beneath the 100yr old pines on ocean front sands and seaside sounds. Each tent is uniquely decorated, with a fully stocked bar fridge. Request champagne on arrival by the ambient fireplace that warms more than the heart. Come night, sleep tight on the best beds of the world, each handcrafted with the finest all-natural materials designed for a cosy comforting sleep. We believe night recuperations are key to sparkling energetic days, & why we take pride in being a Hästens establishment.</p>
 				
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="lang-sv">Boka</a><a href="/boka" class="lang-en">Book now</a></div>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
 				
 			</div>
 		</div>
@@ -351,30 +351,30 @@
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/suite.jpg' ), 'thumb'); ?>
 				<h2>Suite</h2>
-				<p class="lang-sv">Surflogiets svit är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
-				<p class="lang-en">Welcome to Surflogiet’s most luxurious accommodation, for yourself, or with the perfect partner to enjoy the vacation you dream of. With all the finer details, including your own private beach front lounging room. Evenings.. Fall asleep to waves on an exclusive lovely all-natural bed Hästens handbuilt special for you.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="lang-sv">Boka</a><a href="/boka" class="lang-en">Book now</a></div>
+				<p class="sv">Surflogiets svit är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
+				<p class="en">Welcome to Surflogiet’s most luxurious accommodation, for yourself, or with the perfect partner to enjoy the vacation you dream of. With all the finer details, including your own private beach front lounging room. Evenings.. Fall asleep to waves on an exclusive lovely all-natural bed Hästens handbuilt special for you.</p>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/double.jpg' ), 'thumb'); ?>
 				<h2>Double</h2>
-				<p class="lang-sv">Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
-				<p class="lang-en">You take out a bottle from the ‘not so mini’ bar, sharing in a welcome toast as you feel the euphoric sensation of calm and freedom in nature. Thoughts of your inbox flows off you and for a moment you almost wish that you didn’t have reception on your mobile phone.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="lang-sv">Boka</a><a href="/boka" class="lang-en">Book now</a></div>
+				<p class="sv">Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
+				<p class="en">You take out a bottle from the ‘not so mini’ bar, sharing in a welcome toast as you feel the euphoric sensation of calm and freedom in nature. Thoughts of your inbox flows off you and for a moment you almost wish that you didn’t have reception on your mobile phone.</p>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/lodger.jpg' ), 'thumb'); ?>
 				<h2>Lodger</h2>
-				<p class="lang-sv">4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
-				<p class="lang-en">3, 4 or 4.5 made beds for when the sun starts moving towards the horizon. Just before the kids fall asleep you can see, through the tent opening, the red globe disappear into the sea. Just outside your partner is sitting comfortably in one of the comfortable chairs wrapped in a wool blanket, awaiting you & a nightcap.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="lang-sv">Boka</a><a href="/boka" class="lang-en">Book now</a></div>
+				<p class="sv">4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
+				<p class="en">3, 4 or 4.5 made beds for when the sun starts moving towards the horizon. Just before the kids fall asleep you can see, through the tent opening, the red globe disappear into the sea. Just outside your partner is sitting comfortably in one of the comfortable chairs wrapped in a wool blanket, awaiting you & a nightcap.</p>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
 			</div>
 		</div>
 		<div class="text">
-			<p class="lang-sv">Vi debiterar 30% av totalbeloppet i förskott. Resterande betalas i samband med utcheckningen.<br>
+			<p class="sv">Vi debiterar 30% av totalbeloppet i förskott. Resterande betalas i samband med utcheckningen.<br>
 			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Fullständiga bokningsvillkor</a></div></p>
 
-			<p class="lang-en">We charge 30% of the total amount in advance. The remainder is paid in connection with the check-out.<br>
+			<p class="en">We charge 30% of the total amount in advance. The remainder is paid in connection with the check-out.<br>
 			<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://drive.google.com/file/d/1-1fReIWYD1qB47krQRea-1eh0GVd-cMc/view" target="_blank">Complete booking conditions</a></div></p>
 		</div>
 		<div id="baren" class="divider">
@@ -392,7 +392,7 @@
 			<div class="text">
 				<h1>Baren</h1>
 				
-				<div class="lang-sv">
+				<div class="sv">
 
 					<p>Ta av dig skorna! Känn sandkornen kittla dina fötter. Solen värmer dig i ansiktet samtidigt som den tackar för sig och sakta sjunker mot horisonten.</p>
 
@@ -420,7 +420,7 @@
 
 				</div>
 
-				<div class="lang-en">
+				<div class="en">
 
 					<p>Remove your shoes! Feel the grains of sand beneath your feet. The sun warms your face as it slowly says farewell and edges towards the ocean horizon.
 
@@ -461,14 +461,14 @@
 			<div class="text">
 				<h1>Centret</h1>
 				
-				<p class="lang-sv">Välkommen till centret. Det är hit du vänder dig när du vill boka aktiviteter eller checka in i tälthotellet. Här kan du också hyra brädor och kajaker. Öppet mellan 10.00 - 21.00.</p>
+				<p class="sv">Välkommen till centret. Det är hit du vänder dig när du vill boka aktiviteter eller checka in i tälthotellet. Här kan du också hyra brädor och kajaker. Öppet mellan 10.00 - 21.00.</p>
 
-				<p class="lang-en">Welcome to The Centre, where you excitedly come to check into the Tent Hotel. Or, to book, along with your favourite Summer activities. Here you can also rent kayaks & boards (wave, SUP, skim or body). Complementary slacklines, indo & skate boards, volleyball, kube, backgammon.<br>
+				<p class="en">Welcome to The Centre, where you excitedly come to check into the Tent Hotel. Or, to book, along with your favourite Summer activities. Here you can also rent kayaks & boards (wave, SUP, skim or body). Complementary slacklines, indo & skate boards, volleyball, kube, backgammon.<br>
 				Open 10:00 - 21:00</p>
 
 			</div>
 			<div class="infocards two-col">
-				<div class="card" class="lang-sv">
+				<div class="card" class="sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
 					<h2>Stand up paddle guidad tur</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg på brädan. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
@@ -476,7 +476,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Boka</a></div>
 				</div>
-				<div class="card" class="lang-en">
+				<div class="card" class="en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
 					<h2>GUIDED STAND UP PADDLEBOARD TOUR</h2>
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up on the board. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 3 hours.</p>
@@ -484,7 +484,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Book now</a></div>
 				</div>
-				<div class="card" class="lang-sv">
+				<div class="card" class="sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLE YOGA</h2>
 					<p>Sätt dina balansmuskler på prov och följ med oss ut i vattnet. Yoga på en surfbräda är något alldeles speciellt och måste upplevas. Yogan tar ungefär 90 minuter.</p>
@@ -493,7 +493,7 @@
 					<p>190 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Boka</a></div>
 				</div>
-				<div class="card" class="lang-en">
+				<div class="card" class="en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLEBOARD YOGA</h2>
 					<p>Put your core muscles and balance to the test and follow us out onto the water. Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 90 minutes.</p>
@@ -502,7 +502,7 @@
 					<p>190 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Book now</a></div>
 				</div>
-				<div class="card" class="lang-sv">
+				<div class="card" class="sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>KAJAKUTFLYKT MED GUIDE</h2>
 					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
@@ -510,7 +510,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Boka</a></div>
 				</div>
-				<div class="card" class="lang-en">
+				<div class="card" class="en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>KAYAKING TOUR WITH GUIDE</h2>
 					<p>We take you on a fun water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up and away on the kayak. Halfway well go ashore and have a Fika Picnic together in the astounding Gotlandic nature. Approx 3 hours.</p>
@@ -518,7 +518,7 @@
 					<p>550 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Book now</a></div>
 				</div>
-				<div class="card" class="lang-sv">
+				<div class="card" class="sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
@@ -526,7 +526,7 @@
 					<p>650 kr</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Boka</a></div>
 				</div>
-				<div class="card" class="lang-en">
+				<div class="card" class="en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma and proudly worn T-shirt that is handed out on the last day. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding, flying a training kite and more..</p>
@@ -548,7 +548,7 @@
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/eventet.jpg' ), 'medium'); ?>
 				<p class="caption"></p>
 			</div>
-			<div class="text lang-sv">
+			<div class="text sv">
 				<h1>Eventet</h1>
 				
 				<p>Vi vet hur viktigt miljöombytet är för att kreativiteten skall börja flöda. Lämna vardagen och ta med dig kollegorna till stället ni länge kommer att prata om.</p>
@@ -557,7 +557,7 @@
 				
 				<p>Varva arbetet med ett yogapass eller en tur på S.U.P-brädan längs med Toftastranden. Dagen summeras i bastun med vidunderlig utsikt över Östersjön och när hettan blir för påtaglig, är språnget ner till vattnet knappa 30 meter.</p>
 			</div>
-			<div class="text lang-en">
+			<div class="text en">
 				<h1>Eventet</h1>
 				
 				<p>Events Surflogiet style are in popular demand, and are so much fun for all!</p>
@@ -570,11 +570,11 @@
 			</div>
 		</div>
 		<div class="form">
-			<div class="lang-sv">
+			<div class="sv">
 				<h2>Intresseanmälan</h2>
 				<p>Mattias kommer ta hand om ditt ärende. Du kan nå Mattias direkt via telefon och mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> och 0738 39 55 99</p>
 			</div>
-			<div class="lang-en">
+			<div class="en">
 				<h2>INQUIRE</h2>
 				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and 0738 29 55 99</p>
 			</div>
@@ -584,33 +584,33 @@
 			<form action="" method="post">
 			<div class="cols">
 				<div class="col1">
-					<label for="company" class="lang-sv">Företag:</label>
-					<label for="company" class="lang-en">Company:</label>
+					<label for="company" class="sv">Företag:</label>
+					<label for="company" class="en">Company:</label>
 					<input id="company" name="company" type="text">
 					
-					<label for="name" class="lang-sv">Kontaktperson:</label>
-					<label for="name" class="lang-en">Contact person:</label>
+					<label for="name" class="sv">Kontaktperson:</label>
+					<label for="name" class="en">Contact person:</label>
 					<input id="name" name="name" type="text">
 
-					<label for="email" class="lang-sv">E-post:</label>
-					<label for="email" class="lang-en">E-mail:</label>
+					<label for="email" class="sv">E-post:</label>
+					<label for="email" class="en">E-mail:</label>
 					<input id="email" name="email" type="email">
 					
-					<label for="phone" class="lang-sv">Telefon:</label>
-					<label for="phone" class="lang-en">Telephone:</label>
+					<label for="phone" class="sv">Telefon:</label>
+					<label for="phone" class="en">Telephone:</label>
 					<input id="phone" name="phone" type="tel">
 				</div>
 				<div class="col2">
 					<label for="message">Message:</label>
-					<textarea id="message" name="message" rows="10" class="lang-sv">Hej Surflogiet.
+					<textarea id="message" name="message" rows="10" class="sv">Hej Surflogiet.
 Vi är ett företag som älskar ert koncept. Kan ni hjälpa oss att ge förslag på mat, boende och aktivitet för oss?
 
 Vi blir ungefär X personer.
 
 Tack!</textarea>
-					<textarea id="message" name="message" rows="10" class="lang-en"></textarea>
-					<input class="button" type="submit" value="Skicka" class="lang-sv">
-					<input class="button" type="submit" value="Send" class="lang-en">
+					<textarea id="message" name="message" rows="10" class="en"></textarea>
+					<input class="button" type="submit" value="Skicka" class="sv">
+					<input class="button" type="submit" value="Send" class="en">
 				</div>
 			</div>
 			</form>
@@ -628,7 +628,7 @@ Tack!</textarea>
 				<video width="100%" preload="metadata" controls="controls"><source type="video/mp4" src="<?php echo content_url() ?>/uploads/surflogiet_rekrytering.mp4" /></video>
 			</div>
 
-			<div class="text" class="lang-sv">
+			<div class="text" class="sv">
 				<h1>Sök jobb</h1>
 				<p>Nu rekryterar vi inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
@@ -644,7 +644,7 @@ Tack!</textarea>
 				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://docs.google.com/forms/d/e/1FAIpQLSfuJzSqdImXaod1iCokR3Uo1KJKgJi0jkp5DfG5jm-KQI1Nfw/viewform" target="_blank">Ansök nu</a></div>
 			</div>
 
-			<div class="text" class="lang-en">
+			<div class="text" class="en">
 				<h1>APPLY FOR WORK</h1>
 				<p>We are currently recruiting for ‘The Summer of 2019’. Below you can see available positions. Currently live on Gotland or have housing on the island, then you are given preference!</p>
 
@@ -684,26 +684,26 @@ Tack!</textarea>
 				<ul class="contact">
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/location.svg');"><p>Eskelhem Toftavägen 374<br>
 					622 66 Gotlands Tofta<br>
-					<svg class="go" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://goo.gl/maps/NaWWQL8UwrQ2" target="_blank"><span class="lang-sv">Karta på</span><span class="lang-en">Map on</span> Google Maps</a></p></li>
+					<svg class="go" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://goo.gl/maps/NaWWQL8UwrQ2" target="_blank"><span class="sv">Karta på</span><span class="en">Map on</span> Google Maps</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p>0498-29 79 55<br>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
-					<p class="lang-sv">Centret öppet 10.00 - 20.00<br>
+					<p class="sv">Centret öppet 10.00 - 20.00<br>
 					Kafét 11.30 - 22.00</p>
-					<p class="lang-en">The Centre 10.00 - 20.00<br>
+					<p class="en">The Centre 10.00 - 20.00<br>
 					the Cafe 11.30 - 22.00</p></li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="lang-sv"><h3>Vägbeskrivning</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="sv"><h3>Vägbeskrivning</h3>
 					<p>Surfogiet hittar du längs väg 140, 15 minuter söder om Visby. Följ vägen mot Klintehamn och sväng av i Tofta när naturen öppnar upp sig och du ser havet.</p></li>
 				
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="lang-sv">Busslinje 10 avgår från Visby bussterminal mot Burgsvik/Klintehamn.</li>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="sv">Busslinje 10 avgår från Visby bussterminal mot Burgsvik/Klintehamn.</li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="lang-en"><h3>Vägbeskrivning</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="en"><h3>Vägbeskrivning</h3>
 					<p>Surfogiet can be found along road 140. 15mins South of Visby. Follow the road towards Klintehamn and turn off in Tofta when nature opens up and you see the sea.</p></li>
 				
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="lang-en">Bus line 10. Departs from Visby Bus Terminal, towards Burgsvik / Klintehamn.</li>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="en">Bus line 10. Departs from Visby Bus Terminal, towards Burgsvik / Klintehamn.</li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/heart.svg');"><p><a href="https://instagram.com/surflogiet_gotland/" target="_blank">Instagram</a><br>
 					<a href="https://facebook.com/surflogietgotland" target="_blank">Facebook</a></p></li>
@@ -742,7 +742,7 @@ Tack!</textarea>
 
 <script>
 	$(".switch-language").click(function() {
-		$("body").toggleClass("lang-sv lang-en");
+		$("body").toggleClass("sv en");
 	});
 	$(".sidebar-open").click(function() {
 		$("#sidebar").toggle();
