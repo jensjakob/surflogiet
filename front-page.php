@@ -742,7 +742,7 @@ Tack!</textarea>
 
 <script>
 	$(".switch-language").click(function() {
-		$("body").toggleClass("sv en");
+		$("body").toggleClass("lang-sv lang-en");
 	});
 	$(".sidebar-open").click(function() {
 		$("#sidebar").toggle();
