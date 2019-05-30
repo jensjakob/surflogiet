@@ -390,6 +390,21 @@
 
 				<p>Låt barnen springa själva bort till lekområdet eller använda naturens egna sandlåda.</p>
 
+				<p>Öppetider juni:<br>
+				Fredag 31 maj 12.00 - 21.00<br>
+				Lördag 1 juni 12.00 - 21.00<br>
+				Söndag 2 juni 12.00 - 21.00</p>
+
+				<p>Torsdag 6 juni 12.00 - 21.00<br>
+				Fredag 7 juni 12.00 - 21.00<br>
+				Lördag 8 juni 12.00 - 21.00<br>
+				Söndag 9 juni 12.00 - 21.00</p>
+
+				<p>Fredag 14 juni 12.00 - 21.00<br>
+				Lördag 15 juni 12.00 - 21.00 Sommarpremiär från 15.00<br>
+				Söndag 16 juni 12.00 - 21.00<br>
+				Måndag och resten av juni 12.00 - 21.00</p>
+
 				<p>Här hittar du ingen meny, men du kan lita på att vi har något för barnen, vegetarianer, veganer, gluten och laktosintolleranta. Men, strandbordet då? Går det att boka för mig och mina vänner?  Prata med Mattias så kanske han löser det! <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a><br>
 Vi ses!</p>
 			</div>
