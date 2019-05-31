@@ -434,13 +434,13 @@
 					Saturday 1 June 12.00 - 21.00 <br>
 					Sunday June 2nd 12.00 - 21.00 </p>
 
-					<p> Thursday 6 June 12.00 - 21.00 <br>
+					<p> Thursday 6th June 12.00 - 21.00 <br>
 					Friday 7th June 12.00 - 21.00 <br>
-					Saturday 8 June 12.00 - 21.00 <br>
+					Saturday 8th June 12.00 - 21.00 <br>
 					Sunday 9th June 12.00 - 21.00 </p>
 
-					<p> Friday June 14 12.00 - 21.00 <br>
-					Saturday June 15 12.00 - 21.00 Summer premiere from 15.00 <br>
+					<p> Friday 14 June 12.00 - 21.00 <br>
+					Saturday 15 June 12.00 - 21.00. Summer premiere from 15.00 <br>
 					Sunday 16 June 12.00 - 21.00 <br>
 					Monday and the rest of June 12.00 - 21.00 </p>
 
@@ -692,10 +692,12 @@ Tack!</textarea>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
-					<p class="sv">Centret öppet 10.00 - 20.00<br>
-					Kafét 11.30 - 22.00</p>
-					<p class="en">The Centre 10.00 - 20.00<br>
-					the Cafe 11.30 - 22.00</p></li>
+					<p class="sv">Centret 10.00 - 20.00<br>
+					Baren 12.00 - 21.00<br>
+					<a href="#baren">Se barens öppettider i juni</a></p>
+					<p class="en">Centret 10.00 - 20.00<br>
+					Baren 12.00 - 21.00<br>
+					<a href="#baren">See details for June</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="sv"><h3>Vägbeskrivning</h3>
 					<p>Surfogiet hittar du längs väg 140, 15 minuter söder om Visby. Följ vägen mot Klintehamn och sväng av i Tofta när naturen öppnar upp sig och du ser havet.</p></li>
