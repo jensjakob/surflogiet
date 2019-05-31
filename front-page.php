@@ -650,11 +650,14 @@ Tack!</textarea>
 
 			<div class="text sv">
 				<h1>Sök jobb</h1>
-				<p>Nu rekryterar vi inför sommaren 2019. Här nedan ser du vilka tjänster som finns tillgängliga. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
+				
+				<p>Inför sommaren 2019 är vi klara med alla ansökningar. Du är välkommen att lämna din ansökning för extrajobb eller säsongen 2020.</p>
+				
+				<p>Här nedan ser du aktuella tjänster. Du som är boende på Gotland eller har tillgång till eget boende priorieteras högre.</p>
 
 				<ul>
 					<li>Arbetsledare</li>
-					<li>Kafébiträde</li>
+					<li>Bar/restaurang-personal</li>
 					<li>Runner</li>
 					<li>Receptionist/butikssäljare/bokning</li>
 					<li>Aktiviteter och events</li>
@@ -666,11 +669,12 @@ Tack!</textarea>
 
 			<div class="text en">
 				<h1>APPLY FOR WORK</h1>
-				<p>We are currently recruiting for ‘The Summer of 2019’. Below you can see available positions. Currently live on Gotland or have housing on the island, then you are given preference!</p>
+				
+				<p>We're currently done for ‘The Summer of 2019’. You're welcome to submit your application for extra jobs or for the season of 2020.</p>
 
 				<ul>
 					<li>Work leader</li>
-					<li>Kafe´and Bar attendant</li>
+					<li>Bar/restaurant attendant</li>
 					<li>Runner</li>
 					<li>Receptionist/Sales/Booking</li>
 					<li>Event and Activities</li>
