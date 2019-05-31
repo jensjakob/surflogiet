@@ -330,10 +330,8 @@ endif;
 	}
 	</style>
 	<div id="content">
-		<div class="hide infobox userlang">
-			<div class="text">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg><p>Hey! Do you prefer English? <a class="switch-language">Switch language instantly</a>.</p>
-			</div>
+		<div class="hide text userlang sv">
+			<p>Hey! Do you prefer English? <a class="switch-language">Switch language instantly</a>.</p>
 		</div>
 		<div id="logiet" class="divider">
 			<div class="layer1"> </div>
@@ -354,7 +352,7 @@ endif;
 				
 				<p class="en">At Surflogiet you sleep beneath the 100yr old pines on ocean front sands and seaside sounds. Each tent is uniquely decorated, with a fully stocked bar fridge. Request champagne on arrival by the ambient fireplace that warms more than the heart. Come night, sleep tight on the best beds of the world, each handcrafted with the finest all-natural materials designed for a cosy comforting sleep. We believe night recuperations are key to sparkling energetic days, & why we take pride in being a Hästens establishment.</p>
 				
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka?lang=en" class="en">Book now</a></div>
 				
 			</div>
 		</div>
@@ -364,21 +362,21 @@ endif;
 				<h2>Suite</h2>
 				<p class="sv">Surflogiets svit är vårt absolut bekvämaste boende för dig och din partner nu när semestern har börjat. Ni sover gott i de härliga sängarna som Hästens byggt åt oss av rena naturmaterial.</p>
 				<p class="en">Welcome to Surflogiet’s most luxurious accommodation, for yourself, or with the perfect partner to enjoy the vacation you dream of. With all the finer details, including your own private beach front lounging room. Evenings.. Fall asleep to waves on an exclusive lovely all-natural bed Hästens handbuilt special for you.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka?lang=en" class="en">Book now</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/double.jpg' ), 'thumb'); ?>
 				<h2>Double</h2>
 				<p class="sv">Ur minibaren plockar du fram välkomstdrinken, skålar och känner den euforiska känslan av lugn och ledighet. Tankarna på inkorgen rinner av dig och för en stund önskar du nästan att det inte finns någon mottagning på mobilen.</p>
 				<p class="en">You take out a bottle from the ‘not so mini’ bar, sharing in a welcome toast as you feel the euphoric sensation of calm and freedom in nature. Thoughts of your inbox flows off you and for a moment you almost wish that you didn’t have reception on your mobile phone.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka?lang=en" class="en">Book now</a></div>
 			</div>
 			<div class="card">
 				<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/lodger.jpg' ), 'thumb'); ?>
 				<h2>Lodger</h2>
 				<p class="sv">4 bäddade sängar när solen börjar röra sig ner mot horisonten. Precis innan barnen somnar ser du genom tältöppningen hur det röda klotet försvinner ner i havet. Utanför sitter din favorit nedsjunken i en av de sköna stolarna omlindad av ullfiltar. </p>
 				<p class="en">3, 4 or 4.5 made beds for when the sun starts moving towards the horizon. Just before the kids fall asleep you can see, through the tent opening, the red globe disappear into the sea. Just outside your partner is sitting comfortably in one of the comfortable chairs wrapped in a wool blanket, awaiting you & a nightcap.</p>
-				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka" class="en">Book now</a></div>
+				<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka" class="sv">Boka</a><a href="/boka?lang=en" class="en">Book now</a></div>
 			</div>
 		</div>
 		<div class="text">
@@ -494,7 +492,7 @@ endif;
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up on the board. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 3 hours.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet from our Kafét.</p>
 					<p>550 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup&lang=en">Book now</a></div>
 				</div>
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
@@ -512,7 +510,7 @@ endif;
 					<p>INCLUDES: 1x SUPboard 1x paddle 1x wetsuit 1x life vest(optional) & SUP Yoga instructor.</p>
 					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet & tan!</p>
 					<p>190 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=en">Book now</a></div>
 				</div>
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
@@ -528,7 +526,7 @@ endif;
 					<p>We take you on a fun water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up and away on the kayak. Halfway well go ashore and have a Fika Picnic together in the astounding Gotlandic nature. Approx 3 hours.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic Fika picnic with coffee/tea and something sweet from our Kafét.</p>
 					<p>550 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak&lang=en">Book now</a></div>
 				</div>
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
@@ -536,7 +534,7 @@ endif;
 					<p>Veckan då barnen får testa vattenaktiviteter och känner sig som riktiga proffssurfare. Dag för dag jobbar vi oss närmare diplom och t-shirt som delas ut sista dagen. Utifrån dagens förutsättningar testar vi olika vatten & landsporter så som surfing, paddla S.U.P, skateboard eller flyga en träningskite.</p>
 					<p>tisdag - torsdag - lördag START: 09.00 TIDSÅTGÅNG: 1,5 timme ÅLDER: 6-12 år</p>
 					<p>650 kr</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Boka</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=en">Boka</a></div>
 				</div>
 				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
@@ -544,7 +542,7 @@ endif;
 					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma and proudly worn T-shirt that is handed out on the last day. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding, flying a training kite and more..</p>
 					<p>START: 09.00.  Tuesday - Thursday - Saturday.  (Duration 1.5 hrs)</p>
 					<p>650 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=en">Book now</a></div>
 				</div>
 			</div>
 		</div>
@@ -592,13 +590,13 @@ endif;
 			</div>
 			
 			<div class="hide status_ok">
-				<p class="sv">Din förfrågan har skickats!</p>
-				<p class="en">Your request has been sent!</p>
+				<p class="sv">✅ Din förfrågan har skickats!</p>
+				<p class="en">✅ Your request has been sent!</p>
 			</div>
 
 			<div class="hide status_error">
-				<p class="sv">Något gick fel 🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
-				<p class="en">Something went wrong 🤔 Please send us an email instead. Thanks.</p>
+				<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
+				<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please send us an email instead. Thanks.</p>
 			</div>
 
 			<form action="" method="post">
@@ -815,11 +813,11 @@ Tack!</textarea>
 			success: function (json) {
 				$this.css({opacity: 1});
 				if(json.status === 'OK'){
-					$("status_ok").removeClass("hide");
-					$("status_ok").slideUp();
+					$(".status_ok").removeClass("hide");
+					$this.slideUp();
 				}else{
-					$("status_error").removeClass("hide");
-					$("status_error").slideUp();
+					$(".status_error").removeClass("hide");
+					$this.slideUp();
 				}
 			},
 			dataType: 'json'

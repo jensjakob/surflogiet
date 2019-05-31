@@ -140,9 +140,9 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body class="lang-<?= $lang ?>">
 		<header>
-			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
+			<a href="/?lang=<?= $lang ?>"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png"></a>
 		</header>
 		<div id="content">
 			<div class="form">
@@ -151,13 +151,13 @@
 				<p></p>
 
 				<div class="hide status_ok">
-					<p class="sv">Din förfrågan har skickats!</p>
-					<p class="en">Your request has been sent!</p>
+					<p class="sv">✅ Din förfrågan har skickats!</p>
+					<p class="en">✅ Your request has been sent!</p>
 				</div>
 
 				<div class="hide status_error">
-					<p class="sv">Något gick fel 🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
-					<p class="en">Something went wrong 🤔 Please send us an email instead. Thanks.</p>
+					<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
+					<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please send us an email instead. Thanks.</p>
 				</div>
 
 				<form action="" method="post">
@@ -180,34 +180,34 @@
 						<div class="fifty-fifty">
 							<div>
 								<label class="sv" for="date">Datum:</label>
-								<label class="en" for="date">Datum:</label>
+								<label class="en" for="date">Date:</label>
 								<input id="date" name="date" type="date">
 							</div>
 							<div>
 								<label class="sv" for="people">Antal personer:</label>
-								<label class="en" for="people">Antal personer:</label>
+								<label class="en" for="people">Number of people:</label>
 								<input id="people" name="people" type="number" min="0" max="1000">
 							</div>
 						</div>
 
 						<label class="sv" for="name">Namn:</label>
-						<label class="en" for="name">Namn:</label>
+						<label class="en" for="name">Name:</label>
 						<input id="name" name="name" type="text">
 
 						<label class="sv" for="email">E-post:</label>
-						<label class="en" for="email">E-post:</label>
+						<label class="en" for="email">E-mail:</label>
 						<input id="email" name="email" type="email">
 						
 						<label class="sv" for="phone">Telefon:</label>
-						<label class="en" for="phone">Telefon:</label>
+						<label class="en" for="phone">Phone:</label>
 						<input id="phone" name="phone" type="tel">
 					</div>
 					<div class="col2">
 						<label class="sv" for="message">Meddelande:</label>
-						<label class="en" for="message">Meddelande:</label>
+						<label class="en" for="message">Message:</label>
 						<textarea id="message" name="message" rows="10"></textarea>
 						<input class="sv" class="button" type="submit" value="Skicka">
-						<input class="en" class="button" type="submit" value="Skicka">
+						<input class="en" class="button" type="submit" value="Send">
 					</div>
 				</div>
 				</form>
@@ -241,11 +241,11 @@ $(".form form").submit(function(e){
 		success: function (json) {
 			$this.css({opacity: 1});
 			if(json.status === 'OK'){
-				$("status_ok").removeClass("hide");
-				$("status_ok").slideUp();
+				$(".status_ok").removeClass("hide");
+				$this.slideUp();
 			}else{
-				$("status_error").removeClass("hide");
-				$("status_error").slideUp();
+				$(".status_error").removeClass("hide");
+				$this.slideUp();
 			}
 		},
 		dataType: 'json'

@@ -69,7 +69,7 @@ endif;
 	</head>
 	<body class="lang-<?= $lang ?>">
 		<header>
-			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png"></a>
+			<a href="/?lang=<?= $lang ?>"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png"></a>
 		</header>
 		
 		<div id="content">
