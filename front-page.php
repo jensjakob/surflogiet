@@ -482,7 +482,7 @@
 					<h2>GUIDED STAND UP PADDLEBOARD TOUR</h2>
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up on the board. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 3 hours.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet from our Kafét.</p>
-					<p>550 kr</p>
+					<p>550 SEK</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup">Book now</a></div>
 				</div>
 				<div class="card sv">
@@ -500,7 +500,7 @@
 					<p>Put your core muscles and balance to the test and follow us out onto the water. Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 90 minutes.</p>
 					<p>INCLUDES: 1x SUPboard 1x paddle 1x wetsuit 1x life vest(optional) & SUP Yoga instructor.</p>
 					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet & tan!</p>
-					<p>190 kr</p>
+					<p>190 SEK</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga">Book now</a></div>
 				</div>
 				<div class="card sv">
@@ -516,7 +516,7 @@
 					<h2>KAYAKING TOUR WITH GUIDE</h2>
 					<p>We take you on a fun water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up and away on the kayak. Halfway well go ashore and have a Fika Picnic together in the astounding Gotlandic nature. Approx 3 hours.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic Fika picnic with coffee/tea and something sweet from our Kafét.</p>
-					<p>550 kr</p>
+					<p>550 SEK</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Book now</a></div>
 				</div>
 				<div class="card sv">
@@ -532,7 +532,7 @@
 					<h2>KIDS SUMMER SURF</h2>
 					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma and proudly worn T-shirt that is handed out on the last day. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding, flying a training kite and more..</p>
 					<p>START: 09.00.  Tuesday - Thursday - Saturday.  (Duration 1.5 hrs)</p>
-					<p>650 kr</p>
+					<p>650 SEK</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf">Book now</a></div>
 				</div>
 			</div>
