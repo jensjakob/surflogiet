@@ -577,7 +577,7 @@
 			</div>
 			<div class="en">
 				<h2>INQUIRE</h2>
-				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and 0738 29 55 99</p>
+				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and +46-(0)738 29 55 99</p>
 			</div>
 			
 			<p class="status_msg"></p>
@@ -688,7 +688,7 @@ Tack!</textarea>
 					622 66 Gotlands Tofta<br>
 					<svg class="go" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://goo.gl/maps/NaWWQL8UwrQ2" target="_blank"><span class="sv">Karta på</span><span class="en">Map on</span> Google Maps</a></p></li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p>0498-29 79 55<br>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p><span class="sv">0498-29 79 55</span><span class="en">+46-(0)498-29 79 55</span><br>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
