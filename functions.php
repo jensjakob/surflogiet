@@ -44,13 +44,11 @@ function sendActivityEmail() {
 	if($sent) {
 		echo json_encode(array(
 			'status' => 'OK',
-			'msg' => 'Din förfrågan har skickats!',
 		));
 		wp_die();
 	} else {
 		echo json_encode(array(
 			'status' => 'error',
-			'msg' => 'Något gick fel 🤔',
 		));
 		wp_die();
 	}

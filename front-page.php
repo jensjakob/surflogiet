@@ -15,10 +15,12 @@
 			color: #545454;
 			box-sizing: border-box;
 		}
-		.lang-sv .en {
-			display: none;
-		}
-		.lang-en .sv {
+		.hide,
+		.lang-sv .en,
+		.lang-en .sv,
+		#sidebar,
+		#content,
+		.skip-to-content {
 			display: none;
 		}
 		#topmenu {
@@ -26,11 +28,6 @@
 			position: fixed;
 			width: 100%;
 			z-index: 100;
-		}
-		#sidebar,
-		#content,
-		.skip-to-content {
-			display: none;
 		}
 		@font-face {
 			font-family: "Edmondsans";
@@ -580,7 +577,15 @@
 				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and +46-(0)738 29 55 99</p>
 			</div>
 			
-			<p class="status_msg"></p>
+			<div class="hide status_ok">
+				<p class="sv">Din förfrågan har skickats!</p>
+				<p class="en">Your request has been sent!</p>
+			</div>
+
+			<div class="hide status_error">
+				<p class="sv">Något gick fel 🤔Vänligen kontakta oss via e-post istället. Tack.</p>
+				<p class="en">Something went wrong 🤔 Please send us an email instead. Thanks.</p>
+			</div>
 
 			<form action="" method="post">
 			<div class="cols">
@@ -688,7 +693,7 @@ Tack!</textarea>
 					622 66 Gotlands Tofta<br>
 					<svg class="go" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="https://goo.gl/maps/NaWWQL8UwrQ2" target="_blank"><span class="sv">Karta på</span><span class="en">Map on</span> Google Maps</a></p></li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p><span class="sv">0498-29 79 55</span><span class="en">+46-(0)498-29 79 55</span><br>
+					<li style="background-image: uxxrl('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p><span class="sv">0498-29 79 55</span><span class="en">+46-(0)498-29 79 55</span><br>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
@@ -776,7 +781,6 @@ Tack!</textarea>
 			message: $this.find(".message:visible").val(),
 			action: 'sendEventEmail',
 		};
-		var $msg = $(".status_msg");
 		$this.css({opacity: 0.3});
 		$.ajax({
 			type: "POST",
@@ -785,12 +789,11 @@ Tack!</textarea>
 			success: function (json) {
 				$this.css({opacity: 1});
 				if(json.status === 'OK'){
-					$msg.html(json.msg);
-					$msg.removeClass("error");
-					$this.slideUp();
+					$("status_ok").removeClass("hide");
+					$("status_ok").slideUp();
 				}else{
-					$msg.html(json.msg);
-					$msg.addClass("error");
+					$("status_error").removeClass("hide");
+					$("status_error").slideUp();
 				}
 			},
 			dataType: 'json'
