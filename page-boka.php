@@ -1,4 +1,12 @@
-<html>
+<?php
+if ($_GET['lang'] = 'en'):
+	$lang = 'en';
+else:
+	$lang = 'sv';
+endif;
+?>
+<!DOCTYPE html>
+<html lang="<?= $lang ?>">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +18,10 @@
 				font-family: 'Edmondsans', 'Open Sans', sans-serif;
 				font-size: 14px;
 				color: #545454;
+			}
+			.lang-sv .en,
+			.lang-en .sv {
+				display: none;
 			}
 			h1, h2, h3 {
 				text-transform: uppercase;
@@ -55,13 +67,14 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body class="lang-<?= $lang ?>">
 		<header>
 			<a href="/"><img class="logo" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/logo_white.png"></a>
 		</header>
 		
 		<div id="content">
-			<h2>Boka logi</h2>
+			<h2 class="sv">Boka logi</h2>
+			<h2 class="en">Book accommodation</h2>
 			<script async data-form-id="5aeac633b6f28" data-lang="sv" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
 		</div>
 
