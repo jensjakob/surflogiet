@@ -1,5 +1,5 @@
 <?php
-if ($_GET['lang'] = 'en'):
+if ($_GET['lang'] == 'en'):
 	$lang = 'en';
 else:
 	$lang = 'sv';

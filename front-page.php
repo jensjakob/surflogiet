@@ -1,5 +1,5 @@
 <?php
-if ($_GET['lang'] = 'en'):
+if ($_GET['lang'] == 'en'):
 	$lang = 'en';
 else:
 	$lang = 'sv';
@@ -590,7 +590,7 @@ endif;
 			</div>
 
 			<div class="hide status_error">
-				<p class="sv">Något gick fel 🤔Vänligen kontakta oss via e-post istället. Tack.</p>
+				<p class="sv">Något gick fel 🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
 				<p class="en">Something went wrong 🤔 Please send us an email instead. Thanks.</p>
 			</div>
 

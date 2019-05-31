@@ -1,7 +1,14 @@
 <?php
 	$activity = $_GET['activity'];
+
+	if ($_GET['lang'] == 'en'):
+		$lang = 'en';
+	else:
+		$lang = 'sv';
+	endif;
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="<?= $lang ?>">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +20,11 @@
 				font-family: 'Edmondsans', 'Open Sans', sans-serif;
 				font-size: 14px;
 				color: #545454;
+			}
+			.hide,
+			.lang-sv .en,
+			.lang-en .sv {
+				display: none;
 			}
 			h1, h2, h3 {
 				text-transform: uppercase;
@@ -134,48 +146,68 @@
 		</header>
 		<div id="content">
 			<div class="form">
-				<h2>Boka aktivitet</h2>
+				<h2 class="sv">Boka aktivitet</h2>
+				<h2 class="en">Book activity</h2>
 				<p></p>
 
-				<p class="status_msg"></p>
+				<div class="hide status_ok">
+					<p class="sv">Din förfrågan har skickats!</p>
+					<p class="en">Your request has been sent!</p>
+				</div>
+
+				<div class="hide status_error">
+					<p class="sv">Något gick fel 🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
+					<p class="en">Something went wrong 🤔 Please send us an email instead. Thanks.</p>
+				</div>
 
 				<form action="" method="post">
 		
 				<div class="cols">
 					<div class="col1">
-						<label for="activity">Aktivitet:</label>
+						<label class="sv" for="activity">Aktivitet:</label>
+						<label class="en" for="activity">Activity:</label>
 						<select id="activity" name="activity">
 							<option> </option>
-							<option <?php if ($activity == 'sup') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
-							<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
-							<option <?php if ($activity == 'kajak') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
+							<option class="sv" <?php if ($activity == 'sup' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
+							<option class="en" <?php if ($activity == 'sup' && $lang == 'en') echo "selected"; ?>>GUIDED STAND UP PADDLEBOARD TOUR</option>
+							<option class="sv" <?php if ($activity == 'sup-yoga' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
+							<option class="en" <?php if ($activity == 'sup-yoga' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD YOGA</option>
+							<option class="sv" <?php if ($activity == 'kajak' && $lang == 'sv') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
+							<option class="en" <?php if ($activity == 'kajak' && $lang == 'en') echo "selected"; ?>>KAYAKING TOUR WITH GUIDE</option>
 							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
 						</select>
 
 						<div class="fifty-fifty">
 							<div>
-								<label for="date">Datum:</label>
+								<label class="sv" for="date">Datum:</label>
+								<label class="en" for="date">Datum:</label>
 								<input id="date" name="date" type="date">
 							</div>
 							<div>
-								<label for="people">Antal personer:</label>
+								<label class="sv" for="people">Antal personer:</label>
+								<label class="en" for="people">Antal personer:</label>
 								<input id="people" name="people" type="number" min="0" max="1000">
 							</div>
 						</div>
 
-						<label for="name">Namn:</label>
+						<label class="sv" for="name">Namn:</label>
+						<label class="en" for="name">Namn:</label>
 						<input id="name" name="name" type="text">
 
-						<label for="email">E-post:</label>
+						<label class="sv" for="email">E-post:</label>
+						<label class="en" for="email">E-post:</label>
 						<input id="email" name="email" type="email">
 						
-						<label for="phone">Telefon:</label>
+						<label class="sv" for="phone">Telefon:</label>
+						<label class="en" for="phone">Telefon:</label>
 						<input id="phone" name="phone" type="tel">
 					</div>
 					<div class="col2">
-						<label for="message">Meddelande:</label>
+						<label class="sv" for="message">Meddelande:</label>
+						<label class="en" for="message">Meddelande:</label>
 						<textarea id="message" name="message" rows="10"></textarea>
-						<input class="button" type="submit" value="Skicka">
+						<input class="sv" class="button" type="submit" value="Skicka">
+						<input class="en" class="button" type="submit" value="Skicka">
 					</div>
 				</div>
 				</form>
@@ -189,38 +221,36 @@
 
 <script>
 $(".form form").submit(function(e){
-e.preventDefault(e);
-var $this = $(this);
-var data = {
-	activity: $this.find("#activity").val(),
-	date: $this.find("#date").val(),
-	people: $this.find("#people").val(),
-	name: $this.find("#name").val(),
-	email: $this.find("#email").val(),
-	phone: $this.find("#phone").val(),
-	message: $this.find("#message").val(),
-	action: 'sendActivityEmail',
-};
-var $msg = $(".status_msg");
-$this.css({opacity: 0.3});
-$.ajax({
-	type: "POST",
-	url: '<?php echo admin_url( 'admin-ajax.php' ) ?>',
-	data: data,
-	success: function (json) {
-		$this.css({opacity: 1});
-		if(json.status === 'OK'){
-			$msg.html(json.msg);
-			$msg.removeClass("error");
-			$this.slideUp();
-		}else{
-			$msg.html(json.msg);
-			$msg.addClass("error");
-		}
-	},
-	dataType: 'json'
-});
-console.log(data);
+	e.preventDefault(e);
+	var $this = $(this);
+	var data = {
+		activity: $this.find("#activity").val(),
+		date: $this.find("#date").val(),
+		people: $this.find("#people").val(),
+		name: $this.find("#name").val(),
+		email: $this.find("#email").val(),
+		phone: $this.find("#phone").val(),
+		message: $this.find("#message").val(),
+		action: 'sendActivityEmail',
+	};
+	$this.css({opacity: 0.3});
+	$.ajax({
+		type: "POST",
+		url: '<?php echo admin_url( 'admin-ajax.php' ) ?>',
+		data: data,
+		success: function (json) {
+			$this.css({opacity: 1});
+			if(json.status === 'OK'){
+				$("status_ok").removeClass("hide");
+				$("status_ok").slideUp();
+			}else{
+				$("status_error").removeClass("hide");
+				$("status_error").slideUp();
+			}
+		},
+		dataType: 'json'
+	});
+	console.log(data);
 });
 
 </script>
