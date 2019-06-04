@@ -1,8 +1,8 @@
 <?php
-if ($_GET['lang'] == 'en'):
-	$lang = 'en';
-else:
+if ($_GET['lang'] == 'sv'):
 	$lang = 'sv';
+else:
+	$lang = 'en';
 endif;
 ?>
 <!DOCTYPE html>
@@ -330,8 +330,8 @@ endif;
 	}
 	</style>
 	<div id="content">
-		<div class="hide text userlang sv">
-			<p>Hey! Do you prefer English? <a class="switch-language">Switch language instantly</a>.</p>
+		<div class="hide text userlang en">
+			<p>Hej! Vill du ändra till svenska? <a class="switch-language">Byt språk</a>.</p>
 		</div>
 		<div id="logiet" class="divider">
 			<div class="layer1"> </div>
@@ -769,7 +769,7 @@ Tack!</textarea>
 	var userLang = navigator.language || navigator.userLanguage;
 	userLang = userLang.split('-')[0];
 
-	if(userLang != 'sv') {
+	if(userLang == 'sv') {
 		$(".userlang").removeClass('hide');
 	}
 
