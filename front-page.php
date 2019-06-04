@@ -712,7 +712,7 @@ Tack!</textarea>
 					<li style="background-image: uxxrl('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/phone.svg');"><p><span class="sv">0498-29 79 55</span><span class="en">+46-(0)498-29 79 55</span><br>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3>Öppettider</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3 class="sv">Öppettider</h3><h3 class="en">Business hours</h3>
 					<p class="sv">Centret 10.00 - 20.00<br>
 					Baren 12.00 - 21.00<br>
 					<a href="#baren">Se barens öppettider i juni</a></p>
@@ -725,7 +725,7 @@ Tack!</textarea>
 				
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="sv">Busslinje 10 avgår från Visby bussterminal mot Burgsvik/Klintehamn.</li>
 
-					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="en"><h3>Vägbeskrivning</h3>
+					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="en"><h3>Direction</h3>
 					<p>Surfogiet can be found along road 140. 15mins South of Visby. Follow the road towards Klintehamn and turn off in Tofta when nature opens up and you see the sea.</p></li>
 				
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/bus.svg');" class="en">Bus line 10. Departs from Visby Bus Terminal, towards Burgsvik / Klintehamn.</li>
