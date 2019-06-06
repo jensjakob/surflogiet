@@ -411,11 +411,7 @@ endif;
 					<p>Låt barnen springa själva bort till lekområdet eller använda naturens egna sandlåda.</p>
 
 					<p>Öppetider juni:<br>
-					Fredag 31 maj 12.00 - 21.00<br>
-					Lördag 1 juni 12.00 - 21.00<br>
-					Söndag 2 juni 12.00 - 21.00</p>
-
-					<p>Torsdag 6 juni 12.00 - 21.00<br>
+					Torsdag 6 juni 12.00 - 21.00<br>
 					Fredag 7 juni 12.00 - 21.00<br>
 					Lördag 8 juni 12.00 - 21.00<br>
 					Söndag 9 juni 12.00 - 21.00</p>
@@ -439,11 +435,7 @@ endif;
 					<p>Let the kids run away to the playground or play with natures own sandbox.</p>
 
 					<p> Open Hours June: <br>
-					Friday 31 May 12.00 - 21.00 <br>
-					Saturday 1 June 12.00 - 21.00 <br>
-					Sunday June 2nd 12.00 - 21.00 </p>
-
-					<p> Thursday 6th June 12.00 - 21.00 <br>
+					Thursday 6th June 12.00 - 21.00 <br>
 					Friday 7th June 12.00 - 21.00 <br>
 					Saturday 8th June 12.00 - 21.00 <br>
 					Sunday 9th June 12.00 - 21.00 </p>
