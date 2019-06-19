@@ -55,7 +55,7 @@
 			#content {
 				max-width: 720px;
 				margin: 0 auto;
-				padding-top: 20px;
+				padding: 20px 0;
 			}
 			@font-face {
 				font-family: "Edmondsans";
@@ -146,7 +146,10 @@
 			<div class="form">
 
 				<div class="en">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/massage.jpg' ), 'medium'); ?>
+					<div>
+						<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/massage.jpg' ), 'large'); ?>
+					</div>
+
 					<h2>Asian yoga massage</h2>
 
 					<p>The effect of the stretch movements - where the patient has a passive role - is similar to the one achieved by yoga. Muscles and joints are stretched out to their normal hibernation and the flexibility then increases.</p>
