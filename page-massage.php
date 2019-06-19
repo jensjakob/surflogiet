@@ -169,7 +169,7 @@
 						<li>Wear soft cotton pants and a t-shirt with long or short arms.</li>
 						<li>Do not eat within one hour before the treatment.</li>
 						<li>At least 1½ hour treatment is recommended the first time. </li>
-					<ul>
+					</ul>
 
 					<p>Do you have any questions you are welcome to call Kattis +46 (0)72-245 29 29</p>
 				</div>
@@ -201,6 +201,7 @@
 						<li>Tag med ett par mjuka byxor (t ex. träningsbyxor) och en lång- eller kortärmad t-shirt.</li>
 						<li>Ät ej inom en timme före behandlingen.</li>
 						<li>Minst 1½ tim. behandling rekommenderas första gången.</li>
+					</ul>
 
 					<p>Har du frågor ring Kattis 072 245 29 29</p>
 
@@ -239,8 +240,10 @@
 								<label class="en" for="activity">Time:</label>
 								<select id="time" name="time">
 									<option> </option>
-									<option class="en">before noon</option>
-									<option class="en">afternoon</option>
+									<option class="en">09.30 am</option>
+									<option class="en">13.30 pm</option>
+									<option class="sv">kl. 9.30</option>
+									<option class="sv">kl. 13.30</option>
 								</select>
 							</div>
 						</div>

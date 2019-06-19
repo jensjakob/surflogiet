@@ -541,7 +541,7 @@ endif;
 					<h2>Asiatisk Yoga massage</h2>
 					<p>Asiatisk Yogamassage går ut på att öppna upp kroppens energiflöde samt uppnå balans genom att arbeta med kroppens energilinjer och stretcha ut muskler och leder.</p>
 					<p>Med hjälp av fingrar, händer, fötter, knän och armbågar arbetar sig massören igenom muskler energilinjer och akupressurpunkter.</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/massage">Boka nu</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/massage?lang=sv">Boka nu</a></div>
 				</div>
 				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/massage.jpg' ), 'medium'); ?>
