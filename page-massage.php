@@ -1,10 +1,8 @@
 <?php
-	$activity = $_GET['activity'];
-
-	if ($_GET['lang'] == 'en'):
-		$lang = 'en';
-	else:
+	if ($_GET['lang'] == 'sv'):
 		$lang = 'sv';
+	else:
+		$lang = 'en';
 	endif;
 ?>
 <!DOCTYPE html>
@@ -53,6 +51,10 @@
 				max-width: 50%;
 				margin: 0 auto;
 				
+			}
+			.pic img {
+				max-width: 100%;
+    			height: auto;
 			}
 			#content {
 				max-width: 720px;
@@ -146,9 +148,72 @@
 		</header>
 		<div id="content">
 			<div class="form">
-				<h2 class="sv">Boka aktivitet</h2>
-				<h2 class="en">Book activity</h2>
-				<p></p>
+
+				<div class="en">
+					<div class="pic">
+						<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/massage.jpg' ), 'large'); ?>
+					</div>
+
+					<h2>Asian yoga massage</h2>
+
+					<p>The effect of the stretch movements - where the patient has a passive role - is similar to the one achieved by yoga. Muscles and joints are stretched out to their normal hibernation and the flexibility then increases.</p>
+					<p>Since the receiver so effectively gets a deep rest and relaxation, it is good for everybody who needs to relax, release physical tensions and get in a closer contact with themselves.</p>
+					<p>The treatment works in a preventive purpose as well as for you who suffers from back pain, bad shoulders or a general stiffness in the body.</p>
+					<p>Asian yoga massage is given without oil and clothes on.</p>
+
+					<h2>Booking</h2>
+					<ul>
+						<li>90 min, 750 SEK</li>
+						<li>120 min, 950 SEK</li>
+						<li>We want to give an optimal treatment at least 1.5 hours. That is why we choose not to offer shorter treatments.</li>
+						<li>Bookable mån - fre v.28-v.33</li>
+						<li>Bookable times: 09.30 am och 13.30 pm</li>
+						<li>Are you a hotel guest at Surflogiet we offer you 10% discount on the treatment.</li>
+						<li>Payment is offered in the center before the treatment.</li>
+					</ul>
+
+					<h2>The treatment</h2>
+					<ul>
+						<li>Wear soft cotton pants and a t-shirt with long or short arms.</li>
+						<li>Do not eat within one hour before the treatment.</li>
+						<li>At least 1&frac12; hour treatment is recommended the first time. </li>
+					</ul>
+
+					<p>Do you have any questions you are welcome to call Kattis +46 (0)72-245 29 29</p>
+				</div>
+
+				<div class="sv">
+					<h2>Asiatisk yoga massage</h2>
+
+					<p>Effekterna av stretchrörelserna – där patienten har en passiv roll – liknar de som erhålls av yoga. Muskler och leder tänjs ut till dess normala vilolägeoch flexibiliteten ökar.</p>
+
+					<p>Eftersom mottagaren så effektivt uppnår djup vila och avslappning, är den bra för alla som behöver varva ner, släppa fysiska spänningar och komma mer i kontakt med sig själva.</p>
+
+					<p>Behandlingen fungerar lika bra i förebyggande syfte som för de som lider av ryggont, onda axlar eller känner sig stela i kroppen.</p>
+
+					<p>Asiatisk Yoga Massage ges utan olja och med kläder på.</p> 
+
+					<h2>Bokning:</h2>
+					<ul>
+						<li>90 min, 750 kr</li>
+						<li>120 min, 950 kr</li>
+						<li>För en optimal behandling krävs minst 1,5 timme. Därför har vi valt att inte erbjuda kortare behandlingar.</li>
+						<li>Bokningsbart mån - fre v.28-v.33</li>
+						<li>Bokningsbara tider: 09.30 och 13.30</li>
+						<li>Är du hotellgäst på Surflogiet får du 10% rabatt på behandlingen.</li>
+						<li>Betalning sker i anslutning till behandlingen via Swish.</li>
+					</ul>
+					
+					<h2>Inför behandlingen:</h2>
+					<ul>
+						<li>Tag med ett par mjuka byxor (t ex. träningsbyxor) och en lång- eller kortärmad t-shirt.</li>
+						<li>Ät ej inom en timme före behandlingen.</li>
+						<li>Minst 1½ tim. behandling rekommenderas första gången.</li>
+					</ul>
+
+					<p>Har du frågor ring Kattis 072 245 29 29</p>
+
+				</div>
 
 				<div class="hide status_ok">
 					<p class="sv">✅ Din förfrågan har skickats!</p>
@@ -156,25 +221,20 @@
 				</div>
 
 				<div class="hide status_error">
-					<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
-					<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please send us an email instead. Thanks.</p>
+					<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen ring istället. Tack.</p>
+					<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please call instead. Thanks.</p>
 				</div>
 
 				<form action="" method="post">
 		
 				<div class="cols">
 					<div class="col1">
-						<label class="sv" for="activity">Aktivitet:</label>
-						<label class="en" for="activity">Activity:</label>
-						<select id="activity" name="activity">
+						<label class="sv" for="activity">Längd:</label>
+						<label class="en" for="activity">Length:</label>
+						<select id="length" name="length">
 							<option> </option>
-							<option class="sv" <?php if ($activity == 'sup' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
-							<option class="en" <?php if ($activity == 'sup' && $lang == 'en') echo "selected"; ?>>GUIDED STAND UP PADDLEBOARD TOUR</option>
-							<option class="sv" <?php if ($activity == 'sup-yoga' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
-							<option class="en" <?php if ($activity == 'sup-yoga' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD YOGA</option>
-							<option class="sv" <?php if ($activity == 'kajak' && $lang == 'sv') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
-							<option class="en" <?php if ($activity == 'kajak' && $lang == 'en') echo "selected"; ?>>KAYAKING TOUR WITH GUIDE</option>
-							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
+							<option>90 min.</option>
+							<option>120 min.</option>
 						</select>
 
 						<div class="fifty-fifty">
@@ -184,9 +244,15 @@
 								<input id="date" name="date" type="date">
 							</div>
 							<div>
-								<label class="sv" for="people">Antal personer:</label>
-								<label class="en" for="people">Number of people:</label>
-								<input id="people" name="people" type="number" min="0" max="1000">
+								<label class="sv" for="activity">Tid:</label>
+								<label class="en" for="activity">Time:</label>
+								<select id="time" name="time">
+									<option> </option>
+									<option class="en">09.30 am</option>
+									<option class="en">13.30 pm</option>
+									<option class="sv">kl. 9.30</option>
+									<option class="sv">kl. 13.30</option>
+								</select>
 							</div>
 						</div>
 
@@ -224,14 +290,15 @@ $(".form form").submit(function(e){
 	e.preventDefault(e);
 	var $this = $(this);
 	var data = {
-		activity: $this.find("#activity").val(),
+		length: $this.find("#length").val(),
 		date: $this.find("#date").val(),
+		time: $this.find("#time").val(),
 		people: $this.find("#people").val(),
 		name: $this.find("#name").val(),
 		email: $this.find("#email").val(),
 		phone: $this.find("#phone").val(),
 		message: $this.find("#message").val(),
-		action: 'sendActivityEmail',
+		action: 'sendMassageEmail',
 	};
 	$this.css({opacity: 0.3});
 	$.ajax({

@@ -92,4 +92,47 @@ function sendEventEmail() {
 		wp_die();
 	}
 }
+
+add_action( 'wp_ajax_sendMassageEmail', 'sendMassageEmail' );
+add_action( 'wp_ajax_nopriv_sendMassageEmail', 'sendMassageEmail' );
+
+function sendMassageEmail() {
+	header('Content-Type: application/json');
+
+	$length = $_POST['length'];
+	$date = $_POST['date'];
+	$time = $_POST['time'];
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$phone = $_POST['phone'];
+	$message = $_POST['message'];
+
+	$message = $message . "\r\n\r\n" .
+	'Längd: '. $length . "\r\n" .
+	'Datum: '. $date . "\r\n" .
+	'Tid: '. $time . "\r\n\r\n" .
+	'Namn: '. $name . "\r\n" .
+	'E-mail: '. $email . "\r\n" .
+	'Telefon: '. $phone . "\r\n";
+
+	// $to = get_option('admin_email');
+	$to = "kattis@surflogiet.se";
+	$subject = "surflogiet.com " . $name;
+	$headers = 'From: '. $to . "\r\n" .
+	'Reply-To: ' . $email . "\r\n";
+
+	$sent = wp_mail($to, $subject, strip_tags($message), $headers);
+
+	if($sent) {
+		echo json_encode(array(
+			'status' => 'OK',
+		));
+		wp_die();
+	} else {
+		echo json_encode(array(
+			'status' => 'error',
+		));
+		wp_die();
+	}
+}
 ?>
