@@ -116,8 +116,7 @@ function sendMassageEmail() {
 	'Telefon: '. $phone . "\r\n";
 
 	// $to = get_option('admin_email');
-	// $to = "kattis@surflogiet.se";
-	$to = "info@toftawebb.se";
+	$to = "kattis@surflogiet.se";
 	$subject = "surflogiet.com " . $name;
 	$headers = 'From: '. $to . "\r\n" .
 	'Reply-To: ' . $email . "\r\n";
