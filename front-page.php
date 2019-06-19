@@ -410,17 +410,6 @@ endif;
 
 					<p>Låt barnen springa själva bort till lekområdet eller använda naturens egna sandlåda.</p>
 
-					<p>Öppetider juni:<br>
-					Torsdag 6 juni 12.00 - 21.00<br>
-					Fredag 7 juni 12.00 - 21.00<br>
-					Lördag 8 juni 12.00 - 21.00<br>
-					Söndag 9 juni 12.00 - 21.00</p>
-
-					<p>Fredag 14 juni 12.00 - 21.00<br>
-					Lördag 15 juni 12.00 - 21.00 Sommarpremiär från 15.00<br>
-					Söndag 16 juni 12.00 - 21.00<br>
-					Måndag och resten av juni 12.00 - 21.00</p>
-
 					<p>Här hittar du ingen meny, men du kan lita på att vi har något för barnen, vegetarianer, veganer, gluten och laktosintolleranta. Men, strandbordet då? Går det att boka för mig och mina vänner?  Prata med Mattias så kanske han löser det! <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a><br>
 					Vi ses!</p>
 
@@ -433,17 +422,6 @@ endif;
 					<p>Laughter and smiles blend with the beautiful moody tunes from the speakers. The simple, delicious and organic food in perfect combination with local drinks are best enjoyed in company with those you love the most.</p>
 
 					<p>Let the kids run away to the playground or play with natures own sandbox.</p>
-
-					<p> Open Hours June: <br>
-					Thursday 6th June 12.00 - 21.00 <br>
-					Friday 7th June 12.00 - 21.00 <br>
-					Saturday 8th June 12.00 - 21.00 <br>
-					Sunday 9th June 12.00 - 21.00 </p>
-
-					<p> Friday 14 June 12.00 - 21.00 <br>
-					Saturday 15 June 12.00 - 21.00. Summer premiere from 15.00 <br>
-					Sunday 16 June 12.00 - 21.00 <br>
-					Monday and the rest of June 12.00 - 21.00 </p>
 
 					<p>You won’t find a menu here, but you can trust us that you will find something for the kids, the vegetarians, the vegans, and the gluten or lactose intolerant. But, what about that amazing table right on the beach? Can I book it for me and my friends? Speak with Mattias and maybe he’ll hook you up. <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a></p>
 					
@@ -705,12 +683,11 @@ Tack!</textarea>
 					<a href="mailto:info@surflogiet.se">info@surflogiet.se</a></p></li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3 class="sv">Öppettider</h3><h3 class="en">Business hours</h3>
-					<p class="sv">Centret 10.00 - 20.00<br>
-					Baren 12.00 - 21.00<br>
-					<a href="#baren">Se barens öppettider i juni</a></p>
-					<p class="en">Centret 10.00 - 20.00<br>
-					Baren 12.00 - 21.00<br>
-					<a href="#baren">See details for June</a></p></li>
+						<p class="sv">Centret: 10.00 - 20.00<br>
+						Baren: 12.00 - 21.00</p>
+						<p class="en">Centret: 10 am - 8 pm<br>
+						Baren: noon - 9 PM</p>
+					</li>
 
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/map.svg');" class="sv"><h3>Vägbeskrivning</h3>
 					<p>Surfogiet hittar du längs väg 140, 15 minuter söder om Visby. Följ vägen mot Klintehamn och sväng av i Tofta när naturen öppnar upp sig och du ser havet.</p></li>
