@@ -52,6 +52,10 @@
 				margin: 0 auto;
 				
 			}
+			.pic img {
+				max-width: 100%;
+    			height: auto;
+			}
 			#content {
 				max-width: 720px;
 				margin: 0 auto;
@@ -146,7 +150,7 @@
 			<div class="form">
 
 				<div class="en">
-					<div>
+					<div class="pic">
 						<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/massage.jpg' ), 'large'); ?>
 					</div>
 
