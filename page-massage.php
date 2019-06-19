@@ -169,7 +169,7 @@
 					<ul>
 						<li>Wear soft cotton pants and a t-shirt with long or short arms.</li>
 						<li>Do not eat within one hour before the treatment.</li>
-						<li>At least 1½ hour treatment is recommended the first time. </li>
+						<li>At least &frac12; hour treatment is recommended the first time. </li>
 					</ul>
 
 					<p>Do you have any questions you are welcome to call Kattis +46 (0)72-245 29 29</p>
