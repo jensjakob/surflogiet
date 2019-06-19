@@ -685,7 +685,7 @@ Tack!</textarea>
 					<li style="background-image: url('<?php echo get_bloginfo('stylesheet_directory'); ?>/images/time.svg');"><h3 class="sv">Öppettider</h3><h3 class="en">Business hours</h3>
 						<p class="sv">Centret: 10.00 - 20.00<br>
 						Baren: 12.00 - 21.00</p>
-						<p class="en">Centret: 10 am - 8 pm<br>
+						<p class="en">Centret: 10 am - 8 PM<br>
 						Baren: noon - 9 PM</p>
 					</li>
 
