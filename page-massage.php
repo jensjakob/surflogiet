@@ -213,8 +213,8 @@
 				</div>
 
 				<div class="hide status_error">
-					<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen kontakta oss via e-post istället. Tack.</p>
-					<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please send us an email instead. Thanks.</p>
+					<p class="sv">⚠️ Något gick fel <br>🤔 Vänligen ring istället. Tack.</p>
+					<p class="en"️>⚠️️ ️️️Something went wrong <br>🤔 Please call instead. Thanks.</p>
 				</div>
 
 				<form action="" method="post">
