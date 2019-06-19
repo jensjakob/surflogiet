@@ -155,8 +155,8 @@
 
 					<h2>Booking</h2>
 					<ul>
-						<li>90 min, 750 kr</li>
-						<li>120 min, 950 kr</li>
+						<li>90 min, 750 SEK</li>
+						<li>120 min, 950 SEK</li>
 						<li>We want to give an optimal treatment at least 1.5 hours. That is why we choose not to offer shorter treatments.</li>
 						<li>Bookable mån - fre v.28-v.33</li>
 						<li>Bookable times: 09.30 am och 13.30 pm</li>
