@@ -166,7 +166,7 @@
 						<li>90 min, 750 SEK</li>
 						<li>120 min, 950 SEK</li>
 						<li>We want to give an optimal treatment at least 1.5 hours. That is why we choose not to offer shorter treatments.</li>
-						<li>Bookable mån - fre v.28-v.33</li>
+						<li>Bookable Mon - Fri, 8/7-16/8 (week 28-33)</li>
 						<li>Bookable times: 09.30 am och 13.30 pm</li>
 						<li>Are you a hotel guest at Surflogiet we offer you 10% discount on the treatment.</li>
 						<li>Payment is offered in the center before the treatment.</li>
@@ -180,6 +180,9 @@
 					</ul>
 
 					<p>Do you have any questions you are welcome to call Kattis +46 (0)72-245 29 29</p>
+					
+					<p>Please send us a booking request. You can also make a booking in our centre.</p>
+
 				</div>
 
 				<div class="sv">
@@ -212,6 +215,8 @@
 					</ul>
 
 					<p>Har du frågor ring Kattis 072 245 29 29</p>
+					
+					<p>Skicka en bokningsförfrågan genom att fylla i formuläret. Du kan också boka direkt i centret.</p>
 
 				</div>
 
