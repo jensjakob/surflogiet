@@ -167,7 +167,7 @@
 						<li>120 min, 950 SEK</li>
 						<li>We want to give an optimal treatment at least 1.5 hours. That is why we choose not to offer shorter treatments.</li>
 						<li>Bookable Mon - Fri, 8/7-16/8 (week 28-33)</li>
-						<li>Bookable times: 09.30 am och 13.30 pm</li>
+						<li>Bookable times: 09.30 am och 13.00 pm</li>
 						<li>Are you a hotel guest at Surflogiet we offer you 10% discount on the treatment.</li>
 						<li>Payment is offered in the center before the treatment.</li>
 					</ul>
@@ -202,7 +202,7 @@
 						<li>120 min, 950 kr</li>
 						<li>För en optimal behandling krävs minst 1,5 timme. Därför har vi valt att inte erbjuda kortare behandlingar.</li>
 						<li>Bokningsbart mån - fre v.28-v.33</li>
-						<li>Bokningsbara tider: 09.30 och 13.30</li>
+						<li>Bokningsbara tider: 09.30 och 13.00</li>
 						<li>Är du hotellgäst på Surflogiet får du 10% rabatt på behandlingen.</li>
 						<li>Betalning sker i anslutning till behandlingen via Swish.</li>
 					</ul>
@@ -254,9 +254,9 @@
 								<select id="time" name="time">
 									<option> </option>
 									<option class="en">09.30 am</option>
-									<option class="en">13.30 pm</option>
+									<option class="en">1.00 pm</option>
 									<option class="sv">kl. 9.30</option>
-									<option class="sv">kl. 13.30</option>
+									<option class="sv">kl. 13.00</option>
 								</select>
 							</div>
 						</div>
