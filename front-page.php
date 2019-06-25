@@ -410,7 +410,7 @@ endif;
 
 					<p>Låt barnen springa själva bort till lekområdet eller använda naturens egna sandlåda.</p>
 
-					<p>Här hittar du ingen meny, men du kan lita på att vi har något för barnen, vegetarianer, veganer, gluten och laktosintolleranta. Men, strandbordet då? Går det att boka för mig och mina vänner?  Prata med Mattias så kanske han löser det! <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a><br>
+					<p>Här hittar du ingen meny, men du kan lita på att vi har något för barnen, vegetarianer, veganer, gluten och laktosintolleranta. Men, strandbordet då? Går det att boka för mig och mina vänner? Ring oss så kanske vi löser det! 0498-29&nbsp;79&nbsp;55<br>
 					Vi ses!</p>
 
 				</div>
@@ -423,7 +423,7 @@ endif;
 
 					<p>Let the kids run away to the playground or play with natures own sandbox.</p>
 
-					<p>You won’t find a menu here, but you can trust us that you will find something for the kids, the vegetarians, the vegans, and the gluten or lactose intolerant. But, what about that amazing table right on the beach? Can I book it for me and my friends? Speak with Mattias and maybe he’ll hook you up. <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a></p>
+					<p>You won’t find a menu here, but you can trust us that you will find something for the kids, the vegetarians, the vegans, and the gluten or lactose intolerant. But, what about that amazing table right on the beach? Can I book it for me and my friends? Call us and maybe we'll hook you up +46-(0)498-297955</p>
 					
 					<p>See you soon!</p>
 
