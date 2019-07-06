@@ -448,7 +448,7 @@ endif;
 
 			</div>
 			<div class="infocards two-col">
-				<div class="card en">
+				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>Tour</h2>
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that apply on the ocean and have a fun time together with your guide. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 2,5 hours. We have both SUP and Kayaks, the choice is yours!</p>
