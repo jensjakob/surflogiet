@@ -169,6 +169,8 @@
 						<select id="activity" name="activity">
 							<option> </option>
 							<option class="en" <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
+							<option class="sv" <?php if ($activity == 'sauna' && $lang == 'sv') echo "selected"; ?>>BASTU</option>
+							<option class="en" <?php if ($activity == 'sauna' && $lang == 'en') echo "selected"; ?>>SAUNA</option>
 							<option class="sv" <?php if ($activity == 'sup' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
 							<option class="en" <?php if ($activity == 'sup' && $lang == 'en') echo "selected"; ?>>GUIDED STAND UP PADDLEBOARD TOUR</option>
 							<option class="sv" <?php if ($activity == 'sup-yoga' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE YOGA</option>

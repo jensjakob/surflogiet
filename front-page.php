@@ -450,29 +450,18 @@ endif;
 			<div class="infocards two-col">
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/bastu.jpg' ), 'medium'); ?>
-					<h2>Bastu med utsikt över Östersjön.</h2>
+					<h2>Bastu med utsikt över Östersjön</h2>
 					<p>Här inne i värmen ser du vågorna som slår mot strandkanten samtidigt som solens sista strålar sjunker ner i ett glittrande Östersjön. Du kan bada bastu tillsammans med andra eller boka den exklusivt för dig och dina bästa vänner.</p>
-					<p>100kr 1/5 timme 1000kr för hela bastun.<br>
-					10 platser, Ingen medhavd alkohol.</p>
+					<p>100kr 1/5 timme, 1000 kr för hela bastun.<br>
+					10 platser. Ingen medhavd alkohol.</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=sv">Boka nu</a></div>
 				</div>
 				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/bastu.jpg' ), 'medium'); ?>
-					<h2>Sauna with a view of the Baltic Sea.</h2>
-					<p>
-
-Bastu med utsikt över Östersjön.
-
-Här inne i värmen ser du vågorna som slår mot strandkanten samtidigt som solens sista strålar sjunker ner i ett glittrande Östersjön. Du kan bada bastu tillsammans med andra eller boka den exklusivt för dig och dina bästa vänner.
-100kr 1/5 timme 1000kr för hela bastun.
-10 platser, Ingen medhavd alkohol. 
-340/5000
-
-
-Here, in the heat, you see the waves striking the shore edge while the sun's last rays sink into a glittering Baltic Sea. You can swim sauna with others or book it exclusively for you and your best friends.
-100kr 1/5 hour 1000kr for the whole sauna.
-10 seats, No alcohol byob
-</p>
+					<h2>Sauna with a view of the Baltic Sea</h2>
+					<p>Here, in the heat, you see the waves striking the shore edge while the sun's last rays sink into a glittering Baltic Sea. You can swim sauna with others or book it exclusively for you and your best friends.</p>
+					<p>100 SEK 1/5 hour, 1000 SEK for the whole sauna.<br>
+					10 seats</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=en">Book now</a></div>
 				</div>
 				<div class="card">
