@@ -448,6 +448,16 @@ endif;
 
 			</div>
 			<div class="infocards two-col">
+				<div class="card en">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
+					<h2>Tour</h2>
+					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that apply on the ocean and have a fun time together with your guide. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 2,5 hours. We have both SUP and Kayaks, the choice is yours!</p>
+					<p>Minimum age 15</p>
+					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet. </p>
+					<p>550 SEK </p>
+					<p>V.28-32 Tuesdays 9.30, Thursdays 16.30</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour">Book now</a></div>
+				</div>
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
 					<h2>Stand up paddle guidad tur</h2>
@@ -481,22 +491,6 @@ endif;
 					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet & tan!</p>
 					<p>190 SEK</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=en">Book now</a></div>
-				</div>
-				<div class="card sv">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
-					<h2>KAJAKUTFLYKT MED GUIDE</h2>
-					<p>Vi tar dig med på ett roligt vattenäventyr längs Toftas vackra sandstrand. Här lär du dig knepen som får dig upp och i väg i kayaken. Halvvägs gör vi ett strandhugg och fikar tillsammans i den Gotländska miljön. Turen tar ungefär 3 timmar.</p>
-					<p>DET HÄR INGÅR: 1 x Kajak 1 x Paddel 1 x Våtdräkt 1x Flytväst Fika med Ekologiskt Kaffe/the, bullar från Strandbageriet</p>
-					<p>550 kr</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak">Boka</a></div>
-				</div>
-				<div class="card en">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
-					<h2>KAYAKING TOUR WITH GUIDE</h2>
-					<p>We take you on a fun water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up and away on the kayak. Halfway well go ashore and have a Fika Picnic together in the astounding Gotlandic nature. Approx 3 hours.</p>
-					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic Fika picnic with coffee/tea and something sweet from our Kafét.</p>
-					<p>550 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kajak&lang=en">Book now</a></div>
 				</div>
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>

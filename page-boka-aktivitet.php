@@ -168,12 +168,11 @@
 						<label class="en" for="activity">Activity:</label>
 						<select id="activity" name="activity">
 							<option> </option>
+							<option class="en" <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
 							<option class="sv" <?php if ($activity == 'sup' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
 							<option class="en" <?php if ($activity == 'sup' && $lang == 'en') echo "selected"; ?>>GUIDED STAND UP PADDLEBOARD TOUR</option>
 							<option class="sv" <?php if ($activity == 'sup-yoga' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
 							<option class="en" <?php if ($activity == 'sup-yoga' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD YOGA</option>
-							<option class="sv" <?php if ($activity == 'kajak' && $lang == 'sv') echo "selected"; ?>>KAJAKUTFLYKT MED PRIVAT GUIDE</option>
-							<option class="en" <?php if ($activity == 'kajak' && $lang == 'en') echo "selected"; ?>>KAYAKING TOUR WITH GUIDE</option>
 							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
 						</select>
 
