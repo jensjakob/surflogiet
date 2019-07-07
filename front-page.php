@@ -459,8 +459,8 @@ endif;
 				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/bastu.jpg' ), 'medium'); ?>
 					<h2>Sauna with a view of the Baltic Sea</h2>
-					<p>Here, in the heat, you see the waves striking the shore edge while the sun's last rays sink into a glittering Baltic Sea. You can swim sauna with others or book it exclusively for you and your best friends.</p>
-					<p>100 SEK 1/5 hour, 1000 SEK for the whole sauna.<br>
+					<p>Here, in the heat, you see the waves striking the shore while the sun's last rays set into the glittering sea. You can use it with others or book it exclusively for you and your best friends.</p>
+					<p>100 SEK per 1/5 hour, 1000 SEK for the whole sauna.<br>
 					10 seats</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=en">Book now</a></div>
 				</div>
