@@ -168,13 +168,18 @@
 						<label class="en" for="activity">Activity:</label>
 						<select id="activity" name="activity">
 							<option> </option>
-							<option class="en" <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
+
 							<option class="sv" <?php if ($activity == 'sauna' && $lang == 'sv') echo "selected"; ?>>BASTU</option>
 							<option class="en" <?php if ($activity == 'sauna' && $lang == 'en') echo "selected"; ?>>SAUNA</option>
-							<option class="sv" <?php if ($activity == 'sup' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE GUIDAD TUR</option>
-							<option class="en" <?php if ($activity == 'sup' && $lang == 'en') echo "selected"; ?>>GUIDED STAND UP PADDLEBOARD TOUR</option>
-							<option class="sv" <?php if ($activity == 'sup-yoga' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLE YOGA</option>
-							<option class="en" <?php if ($activity == 'sup-yoga' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD YOGA</option>
+							
+							<option <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
+
+							<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>SUNSET STAND UP PADDLEBOARD YOGA</option>
+
+							<option <?php if ($activity == 'introclass') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
+
+							<option <?php if ($activity == 'private-class') echo "selected"; ?>>PRIVATE SUP/SURF CLASS</option>
+							
 							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
 						</select>
 
