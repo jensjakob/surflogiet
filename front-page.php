@@ -449,7 +449,7 @@ endif;
 			</div>
 			<div class="infocards two-col">
 				<div class="card sv">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/bastu.jpg' ), 'medium'); ?>
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sauna.jpg' ), 'medium'); ?>
 					<h2>Bastu med utsikt över Östersjön</h2>
 					<p>Här inne i värmen ser du vågorna som slår mot strandkanten samtidigt som solens sista strålar sjunker ner i ett glittrande Östersjön. Du kan bada bastu tillsammans med andra eller boka den exklusivt för dig och dina bästa vänner.</p>
 					<p>100kr 1/5 timme, 1000 kr för hela bastun.<br>
@@ -457,22 +457,14 @@ endif;
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=sv">Boka nu</a></div>
 				</div>
 				<div class="card en">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/bastu.jpg' ), 'medium'); ?>
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sauna.jpg' ), 'medium'); ?>
 					<h2>Sauna with a view of the Baltic Sea</h2>
 					<p>Here, in the heat, you see the waves striking the shore while the sun's last rays set into the glittering sea. You can use it with others or book it exclusively for you and your best friends.</p>
 					<p>100 SEK per 1/5 hour, 1000 SEK for the whole sauna.<br>
 					10 seats</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=en">Book now</a></div>
 				</div>
-				<div class="card">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
-					<h2>PRIVATE SUP/SURF CLASS</h2>
-					<p>My name is Michelle Ahnell and I have the honor of being Hotel Manager and activity host for this season on Surflogiet!</p>
-					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and PRIVATE SUP/SURF CLASShopefully give you some valuable tools for in and out of the water!</p>
-					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet.</p>
-					<p>1500 SEK/2h</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=<?= $lang ?>">Book now</a></div>
-				</div>
+
 				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kajak.jpg' ), 'medium'); ?>
 					<h2>Tour</h2>
@@ -483,31 +475,47 @@ endif;
 					<p>V.28-32 Tuesdays 9.30, Thursdays 16.30</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=<?= $lang ?>">Book now</a></div>
 				</div>
-				<div class="card en">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
-					<h2>GUIDED STAND UP PADDLEBOARD TOUR</h2>
-					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that will get you up on the board. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 3 hours.</p>
-					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet from our Kafét.</p>
-					<p>550 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup&lang=en">Book now</a></div>
-				</div>
-				<div class="card en">
+
+				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
-					<h2>STAND UP PADDLEBOARD YOGA</h2>
-					<p>Put your core muscles and balance to the test and follow us out onto the water. Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 90 minutes.</p>
+					<h2>SUNSET STAND UP PADDLEBOARD YOGA</h2>
+					<p>Put your core muscles and balance to the test and follow us out onto the water, and into the magical time around sunset. We utilize the energy that comes from the water and sky when together preparing for a new day, Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 60 minutes. </p>
 					<p>INCLUDES: 1x SUPboard 1x paddle 1x wetsuit 1x life vest(optional) & SUP Yoga instructor.</p>
-					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet & tan!</p>
+					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet!</p>
+					<p>V.28-33 Wednesdays & Thursdays 20.30</p>
 					<p>190 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=en">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=<?= $lang ?>">Book now</a></div>
 				</div>
-				<div class="card en">
+
+				<div class="card">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup.jpg' ), 'medium'); ?>
+					<h2>STAND UP PADDLEBOARD/SURF INTROCLASS</h2>
+					<p>Have you ever just wanted to jump on a Stand Up Paddleboard and take off to the horizon, or feel a surfboard under your feet while riding a wave? Let us help you with this dream. Join our sup/surf class and get the best beginner tips and tricks for enjoying the ocean on a board. Just come, grab a board and have fun with the water together with our instructor. For all ages!</p>
+					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
+					<p>450 SEK / Vuxen<br>
+					200 SEK / Medföljande barn</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=<?= $lang ?>">Book now</a></div>
+				</div>
+
+                <div class="card">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
+					<h2>PRIVATE SUP/SURF CLASS</h2>
+					<p>My name is Michelle Ahnell and I have the honor of being Hotel Manager and activity host for this season on Surflogiet!</p>
+					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
+					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet.</p>
+					<p>1500 SEK/2h</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=<?= $lang ?>">Book now</a></div>
+				</div>
+
+				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
-					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma and proudly worn T-shirt that is handed out on the last day. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding, flying a training kite and more..</p>
-					<p>START: 09.00.  Tuesday - Thursday - Saturday.  (Duration 1.5 hrs)</p>
-					<p>650 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=en">Book now</a></div>
+					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding and more. We will also talk about nature and the importance of being kind to it.</p>
+					<p>START: 09.30 Tuesday - Wednesday - Thursday. (Duration 2.5 hrs)</p>
+					<p>700 SEK</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=<?= $lang ?>">Book now</a></div>
 				</div>
+
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/asian-yoga-massage.jpg' ), 'medium'); ?>
 					<h2>Asiatisk Yoga massage</h2>
@@ -522,6 +530,7 @@ endif;
 					<p>With our fingers, hands, feet, knees and elbows we work through the muscles, energy lines and acupressure points.</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/massage">More info and booking</a></div>
 				</div>
+				
 				<div class="card sv">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/morning-yoga.jpg' ), 'medium'); ?>
 					<h2>Vakna upp med härlig morgonyoga</h2>
