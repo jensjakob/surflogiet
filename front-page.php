@@ -21,6 +21,7 @@ endif;
 			font-size: 14px;
 			color: #545454;
 			box-sizing: border-box;
+			background-color: white;
 		}
 		.hide,
 		.lang-sv .en,
