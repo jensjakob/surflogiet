@@ -497,8 +497,8 @@ endif;
 					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
 					<p>v.28-32 Tuesdays, Wednesdays and Thursdays 13.00 approx 1,5 hours<br>
 					Minimum for the class to happen is 4 people. We will call you if the class is canceled due to lack of registers. <br>
-					450 SEK / Vuxen<br>
-					200 SEK / Medföljande barn</p>
+					450 SEK / adult<br>
+					200 SEK / for a child who tags along </p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=<?= $lang ?>">Book now</a></div>
 				</div>
 
