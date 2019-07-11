@@ -472,7 +472,7 @@ endif;
 					<p>Minimum for the tour to happen is 5 people. We will call you if the Tour is canceled due to lack of registers or a stormy weather. Minimum age 15.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet. </p>
 					<p>550 SEK/person</p>
-					<p>V.28-32 Tuesdays 9.30, Thursdays 16.30</p>
+					<p>V.28-32 Tuesdays 9.30, Thursdays 15.30</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=<?= $lang ?>">Book now</a></div>
 				</div>
 
@@ -504,7 +504,6 @@ endif;
                 <div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
 					<h2>PRIVATE SUP/SURF CLASS</h2>
-					<p>My name is Michelle Ahnell and I have the honor of being Hotel Manager and activity host for this season on Surflogiet!</p>
 					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet.</p>
 					<p>Tuesdays & Wednesdays 16.00 approx 2 hours.<br>
