@@ -477,7 +477,7 @@ endif;
 				</div>
 
 				<div class="card">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/surfschool.jpg' ), 'medium'); ?>
 					<h2>SURFSCHOOL</h2>
 					<p>v.29-33<br>
 					Wednesdays & Thursdays 19.00 approx 2 hours</p>
