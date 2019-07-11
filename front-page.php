@@ -478,6 +478,20 @@ endif;
 
 				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
+					<h2>SURFSCHOOL</h2>
+					<p>v.29-33<br>
+					Wednesdays & Thursdays 19.00 approx 2 hours</p>
+					<p>To surf is to live! Come and join our 2-day course and learn the most important skills that you need for catching your first waves. We will test our balance on the indo-board, learn paddle, popup, warmup, and stretching techniques, so even if there would be no wave for the day you will learn many important aspects that will help you when it is time. It will be a course filled with everything surfing and when we are done hopefully your inner surfersoul is more awaken then ever and you can feel comfortable to try it out on your own. It is a magical sport that connects you with nature, mind, and body all at the same time.</p>
+					<p>Minimum 15 years of age<br>
+					Maximum 6 people/group<br>
+					2 attendants or more for the course to happen<br>
+					Including board and wetsuit<br>
+					995:-/person</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=<?= $lang ?>">Book now</a></div>
+				</div>
+
+				<div class="card">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLEBOARD/SURF INTROCLASS</h2>
 					<p>Have you ever just wanted to jump on a Stand Up Paddleboard and take off to the horizon, or feel a surfboard under your feet while riding a wave? Let us help you with this dream. Join our sup/surf class and get the best beginner tips and tricks for enjoying the ocean on a board. Just come, grab a board and have fun with the water together with our instructor. For all ages!</p>
 					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
