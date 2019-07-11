@@ -174,8 +174,6 @@
 							
 							<option <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
 
-							<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>SUNSET STAND UP PADDLEBOARD YOGA</option>
-
 							<option <?php if ($activity == 'introclass') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
 
 							<option <?php if ($activity == 'private-class') echo "selected"; ?>>PRIVATE SUP/SURF CLASS</option>

@@ -477,17 +477,6 @@ endif;
 				</div>
 
 				<div class="card">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
-					<h2>SUNSET STAND UP PADDLEBOARD YOGA</h2>
-					<p>Put your core muscles and balance to the test and follow us out onto the water, and into the magical time around sunset. We utilize the energy that comes from the water and sky when together preparing for a new day, Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 60 minutes. In case of the weather not co-operating with us we will do the yoga on land in the grass (we provide yoga mat) so it will still be a yoga even if not on the ocean.</p>
-					<p>INCLUDES: 1x SUPboard 1x paddle 1x wetsuit 1x life vest(optional) & SUP Yoga instructor.</p>
-					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet!</p>
-					<p>V.28-33 Wednesdays & Thursdays 20.30</p>
-					<p>190 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=<?= $lang ?>">Book now</a></div>
-				</div>
-
-				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLEBOARD/SURF INTROCLASS</h2>
 					<p>Have you ever just wanted to jump on a Stand Up Paddleboard and take off to the horizon, or feel a surfboard under your feet while riding a wave? Let us help you with this dream. Join our sup/surf class and get the best beginner tips and tricks for enjoying the ocean on a board. Just come, grab a board and have fun with the water together with our instructor. For all ages!</p>
