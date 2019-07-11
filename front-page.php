@@ -473,19 +473,22 @@ endif;
 					<p>Minimum for the tour to happen is 5 people. We will call you if the Tour is canceled due to lack of registers or a stormy weather. Minimum age 15.</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet. </p>
 					<p>550 SEK/person</p>
-					<p>V.28-32 Tuesdays 9.30, Thursdays 16.30</p>
+					<p>V.28-32 Tuesdays 9.30, Thursdays 15.30</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=<?= $lang ?>">Book now</a></div>
 				</div>
 
 				<div class="card">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sup-yoga.jpg' ), 'medium'); ?>
-					<h2>SUNSET STAND UP PADDLEBOARD YOGA</h2>
-					<p>Put your core muscles and balance to the test and follow us out onto the water, and into the magical time around sunset. We utilize the energy that comes from the water and sky when together preparing for a new day, Yoga on a SUP is something very special. It is so fun and can be experienced by all at any level (tied to float to not drift). Approx 60 minutes. In case of the weather not co-operating with us we will do the yoga on land in the grass (we provide yoga mat) so it will still be a yoga even if not on the ocean.</p>
-					<p>INCLUDES: 1x SUPboard 1x paddle 1x wetsuit 1x life vest(optional) & SUP Yoga instructor.</p>
-					<p>TIP! Wear clothes normal for practicing Yoga, or swimwear as it’s fun & nice to get wet!</p>
-					<p>V.28-33 Wednesdays & Thursdays 20.30</p>
-					<p>190 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sup-yoga&lang=<?= $lang ?>">Book now</a></div>
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/surfschool.jpg' ), 'medium'); ?>
+					<h2>SURFSCHOOL</h2>
+					<p>v.29-33<br>
+					Wednesdays & Thursdays 19.00 approx 2 hours</p>
+					<p>To surf is to live! Come and join our 2-day course and learn the most important skills that you need for catching your first waves. We will test our balance on the indo-board, learn paddle, popup, warmup, and stretching techniques, so even if there would be no wave for the day you will learn many important aspects that will help you when it is time. It will be a course filled with everything surfing and when we are done hopefully your inner surfersoul is more awaken then ever and you can feel comfortable to try it out on your own. It is a magical sport that connects you with nature, mind, and body all at the same time.</p>
+					<p>Minimum 15 years of age<br>
+					Maximum 6 people/group<br>
+					3 attendants or more for the course to happen<br>
+					Including board and wetsuit<br>
+					995:-/person</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=<?= $lang ?>">Book now</a></div>
 				</div>
 
 				<div class="card">
@@ -494,15 +497,15 @@ endif;
 					<p>Have you ever just wanted to jump on a Stand Up Paddleboard and take off to the horizon, or feel a surfboard under your feet while riding a wave? Let us help you with this dream. Join our sup/surf class and get the best beginner tips and tricks for enjoying the ocean on a board. Just come, grab a board and have fun with the water together with our instructor. For all ages!</p>
 					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
 					<p>v.28-32 Tuesdays, Wednesdays and Thursdays 13.00 approx 1,5 hours<br>
-					450 SEK / Vuxen<br>
-					200 SEK / Medföljande barn</p>
+					Minimum for the class to happen is 4 people. We will call you if the class is canceled due to lack of registers. <br>
+					450 SEK / adult<br>
+					200 SEK / for a child who tags along </p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=<?= $lang ?>">Book now</a></div>
 				</div>
 
                 <div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
 					<h2>PRIVATE SUP/SURF CLASS</h2>
-					<p>My name is Michelle Ahnell and I have the honor of being Hotel Manager and activity host for this season on Surflogiet!</p>
 					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet.</p>
 					<p>Tuesdays & Wednesdays 16.00 approx 2 hours.<br>

@@ -44,7 +44,7 @@
 				background-color: #DDC79C;
 				padding: 40px;
 				background-image: url('<?php echo content_url() ?>/uploads/<?php echo $activity ?>.jpg');
-				background-position: <?php echo ($activity == 'kajak') ? "0 65%" : "center" ?>;
+				background-position: <?php echo ($activity == 'tour') ? "0 65%" : "center" ?>;
 				background-size: cover;
 			}
 			header .logo {
@@ -174,7 +174,7 @@
 							
 							<option <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
 
-							<option <?php if ($activity == 'sup-yoga') echo "selected"; ?>>SUNSET STAND UP PADDLEBOARD YOGA</option>
+							<option <?php if ($activity == 'surfschool') echo "selected"; ?>>SURFSCHOOL</option>
 
 							<option <?php if ($activity == 'introclass') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
 
