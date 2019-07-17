@@ -543,8 +543,7 @@ endif;
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/morning-yoga.jpg' ), 'medium'); ?>
 					<h2>Vakna upp med härlig morgonyoga</h2>
 
-					<p>7.30-8.30 Måndag, onsdag, fredag<br>
-					8.30-9.45 Söndag<br>
+					<p>8.30-9.45 Måndag, onsdag, fredag, söndag<br>
 					v.28-31 Oavsett väder och vind.</p>
 
 					<p>Alla är välkomna!</p>
@@ -565,8 +564,7 @@ endif;
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/morning-yoga.jpg' ), 'medium'); ?>
 					<h2>Wake up with a lovely morning yoga</h2>
 
-					<p> 7.30-8.30 Monday, Wednesday, Friday <br>
-					8.30-9.45 Sunday <br>
+					<p> 8.30-9.45 Monday, Wednesday, Friday, Sunday <br>
 					v.28-31 Whatever the weather. </p>
 
 					<p> Everyone is welcome! </p>
