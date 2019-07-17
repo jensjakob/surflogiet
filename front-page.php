@@ -507,7 +507,7 @@ endif;
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
 					<h2>PRIVATE SUP/SURF CLASS</h2>
 					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
-					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet.</p>
+					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket.</p>
 					<p>Tuesdays & Wednesdays 16.00 approx 2 hours.<br>
 					1500:- 1 person, 2-4 people 3000:-<br>
 					For bookings over 4 people please contact me at <a href="mailto:michelle@surflogiet.se">michelle@surflogiet.se</a> and we can discuss it further.</p>
