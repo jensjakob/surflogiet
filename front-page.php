@@ -449,14 +449,6 @@ endif;
 
 			</div>
 			<div class="infocards two-col">
-				<div class="card sv">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sauna.jpg' ), 'medium'); ?>
-					<h2>Bastu med utsikt över Östersjön</h2>
-					<p>Här inne i värmen ser du vågorna som slår mot strandkanten samtidigt som solens sista strålar sjunker ner i ett glittrande Östersjön. Du kan bada bastu tillsammans med andra eller boka den exklusivt för dig och dina bästa vänner.</p>
-					<p>100kr 1/5 timme, 1000 kr för hela bastun.<br>
-					10 platser. Ingen medhavd alkohol.</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=sv">Boka nu</a></div>
-				</div>
 				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sauna.jpg' ), 'medium'); ?>
 					<h2>Sauna with a view of the Baltic Sea</h2>
@@ -465,8 +457,16 @@ endif;
 					10 seats</p>
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=en">Book now</a></div>
 				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/sauna.jpg' ), 'medium'); ?>
+					<h2>Bastu med utsikt över Östersjön</h2>
+					<p>Här inne i värmen ser du vågorna som slår mot strandkanten samtidigt som solens sista strålar sjunker ner i ett glittrande Östersjön. Du kan bada bastu tillsammans med andra eller boka den exklusivt för dig och dina bästa vänner.</p>
+					<p>100kr 1/5 timme, 1000 kr för hela bastun.<br>
+					10 platser. Ingen medhavd alkohol.</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=sauna&lang=sv">Boka nu</a></div>
+				</div>
 
-				<div class="card">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/tour.jpg' ), 'medium'); ?>
 					<h2>Tour</h2>
 					<p>We take you on a fun-filled water adventure along Tofta’s beautiful beach. Here you will learn all the tips & tricks that apply on the ocean and have a fun time together with your guide. Halfway we’ll go ashore and ‘Fika’ picnic together in the Gotlandic nature. Approx 2,5 hours. We have both SUP and Kayaks, the choice is yours!</p>
@@ -474,10 +474,20 @@ endif;
 					<p>INCLUDES: 1x board 1x paddle 1x wetsuit 1x life jacket. Organic ‘Fika’ with coffee/tea and something sweet. </p>
 					<p>550 SEK/person</p>
 					<p>V.28-32 Tuesdays 9.30, Thursdays 15.30</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=<?= $lang ?>">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=en">Book now</a></div>
+				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/tour.jpg' ), 'medium'); ?>
+					<h2>Tour</h2>
+					<p>Vi tar dig på ett vattenfyllt äventyr längst vackra Tofta strand och här får du lära dig alla nödvändiga tips och tricks som man behöver på havet och ha en härlig stund tillsammans med er guide. Vi går iland i det anrika fiskelägret Gnisvärd där vi fikar och njuter av den Gotländska naturen. Turen tar ca 2,5h. Vi har bade Stand Up Paddleboards och Kajaker, valet är ditt!</p>
+					<p>Minst antalet anmälda för att turen skall bli av är 5 personer. Vi kommer att ringa dig om Turen skulle bli inställd pågrund av för få anmälda eller hårt väder. Minimum ålder 15.</p>
+					<p>Inkluderar bräda/kajak, paddle, våtdräkt, flytväst och Fika med kaffe eller Te.</p>
+					<p>550:-/person</p>
+					<p>v.28-32 Tisdagar 9.30, Torsdagar 15.30</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=tour&lang=sv">Boka nu</a></div>
 				</div>
 
-				<div class="card">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/surfschool.jpg' ), 'medium'); ?>
 					<h2>SURFSCHOOL</h2>
 					<p>v.29-33<br>
@@ -486,9 +496,22 @@ endif;
 					<p>Minimum 15 years of age<br>
 					Maximum 6 people/group<br>
 					3 attendants or more for the course to happen<br>
-					Including board and wetsuit<br>
-					995:-/person</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=<?= $lang ?>">Book now</a></div>
+					Including board and wetsuit</p>
+					<p>995:-/person</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=en">Book now</a></div>
+				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/surfschool.jpg' ), 'medium'); ?>
+					<h2>SURFSCHOOL</h2>
+					<p>Att surfa är att leva! Kom och joina våran 2dagars kurs och lär dig de viktigaste knepen som du behöver för att fånga dina första vågor. Vi kommer testa balansen på våra indo-brädor, lära oss paddel, popup, uppvärmnings, samt stretching tekniker, så även om det inte skulle vara några vågor på kursdagen kommer du lära dig många viktiga aspekter som kommer hjälpa dig när det väl är dags. Det kommer att vara en kurs fylld av allting surfing och när vi är klara kommer din innre surfsjäl vara mer vaken än någonsin och du kan känna dig trygg med att pröva själv. Det är en magisk sport som förenar dig med naturen, själen och din kropp, alla på en gång.</p>
+					<p>V.29-33<br>
+					Onsdagar och Torsdagar klockan 19.00, ca 2 timmar.</p>
+					<p>Minimum ålder för att delta är 15 år<br>
+					Max 6 personer per kurs<br>
+					3 eller fler anmälda för att kursen skall bli genomförd<br>
+					Inkluderar bräda och våtdräkt</p>
+					<p>995:-/person</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=sv">Boka nu</a></div>
 				</div>
 
 				<div class="card">

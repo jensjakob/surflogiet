@@ -169,10 +169,11 @@
 						<select id="activity" name="activity">
 							<option> </option>
 
-							<option class="sv" <?php if ($activity == 'sauna' && $lang == 'sv') echo "selected"; ?>>BASTU</option>
 							<option class="en" <?php if ($activity == 'sauna' && $lang == 'en') echo "selected"; ?>>SAUNA</option>
-							
-							<option <?php if ($activity == 'tour') echo "selected"; ?>>TOUR</option>
+							<option class="sv" <?php if ($activity == 'sauna' && $lang == 'sv') echo "selected"; ?>>BASTU</option>
+
+							<option class="en" <?php if ($activity == 'tour' && $lang == 'en') echo "selected"; ?>>TOUR</option>
+							<option class="sv" <?php if ($activity == 'tour' && $lang == 'sv') echo "selected"; ?>>TUR</option>
 
 							<option <?php if ($activity == 'surfschool') echo "selected"; ?>>SURFSCHOOL</option>
 
