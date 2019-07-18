@@ -177,7 +177,8 @@
 
 							<option <?php if ($activity == 'surfschool') echo "selected"; ?>>SURFSCHOOL</option>
 
-							<option <?php if ($activity == 'introclass') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
+							<option class="en" <?php if ($activity == 'introclass' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
+							<option class="sv" <?php if ($activity == 'introclass' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROKLASS</option>
 
 							<option <?php if ($activity == 'private-class') echo "selected"; ?>>PRIVATE SUP/SURF CLASS</option>
 							

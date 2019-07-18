@@ -514,19 +514,30 @@ endif;
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=surfschool&lang=sv">Boka nu</a></div>
 				</div>
 
-				<div class="card">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
 					<h2>STAND UP PADDLEBOARD/SURF INTROCLASS</h2>
 					<p>Have you ever just wanted to jump on a Stand Up Paddleboard and take off to the horizon, or feel a surfboard under your feet while riding a wave? Let us help you with this dream. Join our sup/surf class and get the best beginner tips and tricks for enjoying the ocean on a board. Just come, grab a board and have fun with the water together with our instructor. For all ages!</p>
-					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
 					<p>v.28-32 Tuesdays, Wednesdays and Thursdays 13.00 approx 1,5 hours<br>
-					Minimum for the class to happen is 4 people. We will call you if the class is canceled due to lack of registers. <br>
-					450 SEK / adult<br>
+					Minimum for the class to happen is 4 people. We will call you if the class is canceled due to lack of registers.</p>
+					<p>INCLUDES: 1x board 1x paddle or leash 1x wetsuit 1x life jacket</p>
+					<p>450 SEK / adult<br>
 					200 SEK / for a child who tags along </p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=<?= $lang ?>">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=en">Book now</a></div>
+				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/introclass.jpg' ), 'medium'); ?>
+					<h2>STAND UP PADDLEBOARD/SURF INTROKLASS</h2>
+					<p>Har du någonsin bara velat hoppa upp på en Stand Up Paddleboard och paddla iväg mot horisonten, eller känna surfbrädan under dina fötter medans du tar en våg? Låt oss hjälpa dig med denna dröm. Anmäl dig till våran sup/surf klass och få dem bästa nybörjartipsen för att kunna njuta av havet på en bräda. Kom förbi och greppa en bräda och ha kul i vattnet tillsammans med vår instruktör. För alla åldrar.</p>
+					<p>v.28-32 Tisdagar, Onsdagar och Torsdagar klockan 13.00, ca 1,5h<br>
+					Minimum för att klassen skall bli av är 4 anmälda, vi kommer ringa dig om klassen skulle bli inställd pågrund av för få amälda.</p>
+					<p>Inkluderar bräda, paddel, våtdräkt och flytväst</p>
+					<p>450:-/Vuxen (fr 14 år)<br>
+					200:-/Barn som hänger med en vuxen</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=sv">Boka nu</a></div>
 				</div>
 
-                <div class="card">
+				<div class="card">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
 					<h2>PRIVATE SUP/SURF CLASS</h2>
 					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
