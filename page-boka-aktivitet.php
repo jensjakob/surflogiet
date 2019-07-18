@@ -180,8 +180,9 @@
 							<option class="en" <?php if ($activity == 'introclass' && $lang == 'en') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROCLASS</option>
 							<option class="sv" <?php if ($activity == 'introclass' && $lang == 'sv') echo "selected"; ?>>STAND UP PADDLEBOARD/SURF INTROKLASS</option>
 
-							<option <?php if ($activity == 'private-class') echo "selected"; ?>>PRIVATE SUP/SURF CLASS</option>
-							
+							<option class="en" <?php if ($activity == 'private-class' && $lang == 'en') echo "selected"; ?>>PRIVATE SUP/SURF CLASS</option>
+							<option class="sv" <?php if ($activity == 'private-class' && $lang == 'sv') echo "selected"; ?>>PRIVAT SUP/SURF KLASS</option>
+
 							<option <?php if ($activity == 'kids-surf') echo "selected"; ?>>KIDS SUMMER SURF</option>
 						</select>
 

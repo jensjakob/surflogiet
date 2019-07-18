@@ -537,7 +537,7 @@ endif;
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=introclass&lang=sv">Boka nu</a></div>
 				</div>
 
-				<div class="card">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
 					<h2>PRIVATE SUP/SURF CLASS</h2>
 					<p>I love surfing, and after spending many years abroad, I have now returned home (for a while) ready to share everything I know about this life saving sport. It is so much more than just standing on a board in the water, and for me, it has changed so much in my life for the positive. Suddenly, there is a deeper knowledge and respect for nature and for energies, both within and around, I have learned how to listen to my body, what to feed it and how to train and stretch it. So many good things come from surfing and just by living a positive lifestyle, let me share some of my “lifehacks” and hopefully give you some valuable tools for in and out of the water!</p>
@@ -545,7 +545,18 @@ endif;
 					<p>Tuesdays & Wednesdays 16.00 approx 2 hours.<br>
 					1500:- 1 person, 2-4 people 3000:-<br>
 					For bookings over 4 people please contact me at <a href="mailto:michelle@surflogiet.se">michelle@surflogiet.se</a> and we can discuss it further.</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=<?= $lang ?>">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=en">Book now</a></div>
+				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/private-class.jpg' ), 'medium'); ?>
+					<h2>PRIVAT SUP/SURF KLASS</h2>
+					<p>Jag älskar att surfa, och efter att ha spenderat många år utomlands har jag nu kommit hem (ett tag) redo att dela med mig av allt jag har lärt mig hittils om denna livsräddande sport. Att surfa handlar om så mycket mer än att bara stå på en bräda i vattnet, och för mig, har det förändrat mitt liv otroligt mycket åt det positiva. Plötsligt, finns det en djupare kunskap och respekt för naturen och energier, båda invändigt och utvändigt, jag har lärt mig att lyssna på min kropp, lärt mig vad jag skall äta för att ge den mest samt hur jag ska träna och stretcha den. Så många bra saker kommer från surfing och att leva en positiv livsstil. Låt mig dela några av mina "lifehacks" och förhoppningsvis ge dig några värdefulla redskap för både i och utanför vattnet.</p>
+					<p>Inkluderar bräda, paddel, våtdräkt och flytväst (vid behov och önskemål)</p>
+					<p>v.28-v.32 Tisdagar och Onsdagar kl 16.00, ca 2 timmar.<br>
+					1500:- 1 person<br>
+					3000:- 2-4 personer<br>
+					För bokningar över 4 personer kontakta mig direkt på <a href="mailto:michelle@surflogiet.se">michelle@surflogiet.se</a> så kan vi diskutera möjligheterna</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=sv">Boka nu</a></div>
 				</div>
 
 				<div class="card">
