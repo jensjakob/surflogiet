@@ -559,14 +559,24 @@ endif;
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=private-class&lang=sv">Boka nu</a></div>
 				</div>
 
-				<div class="card">
+				<div class="card en">
 					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
 					<h2>KIDS SUMMER SURF</h2>
 					<p>A week for the children get to try all our water activities with our instructor to feel like real professional surfers. Day by day we work closer to the Diploma. Based on the weather conditions of the day, we try out different water & land sports like surfing, S.U.P, skateboarding and more. We will also talk about nature and the importance of being kind to it.</p>
 					<p>Includes 1x wetsuit 1x life jacket & Fika</p>
 					<p>START: 09.30 Tuesday - Wednesday - Thursday. (Duration 2.5 hrs)</p>
 					<p>700 SEK</p>
-					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=<?= $lang ?>">Book now</a></div>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=en">Book now</a></div>
+				</div>
+				<div class="card sv">
+					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/kids-surf.jpg' ), 'medium'); ?>
+					<h2>KIDS SUMMER SURF</h2>
+					<p>En vecka för barnen att pröva våra vattenaktiviteter tillsammans med instruktör för att känna sig som professionella surfare. Dag för dag kommer vi närmare diplomet. Barnen kommer lära sig om naturen och surfing, de kommer få testa sina balanssinnen på våra balansleksaker samt lära sig att känna sig bekväma i vattnet. Vi kommer gå igenom vikten av att vara snäll mot naturen och de kommer att lära sig en hel del nya saker och framförallt, ha väldigt kul.</p>
+					<p>Start 9.30 3dagars kurs. Tisdagar, Onsdagar, och Torsdagar, ca 2 timmar<br>
+					Ålder 6-10</p>
+					<p>Inkluderar bräda, våtdräkt, flytväst och fika</p>
+					<p>700:-/barn</p>
+					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/boka-aktivitet?activity=kids-surf&lang=sv">Boka nu</a></div>
 				</div>
 
 				<div class="card sv">
