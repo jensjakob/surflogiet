@@ -594,47 +594,7 @@ endif;
 					<div class="go"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg><a href="/massage">More info and booking</a></div>
 				</div>
 				
-				<div class="card sv">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/morning-yoga.jpg' ), 'medium'); ?>
-					<h2>Vakna upp med härlig morgonyoga</h2>
-
-					<p>8.30-9.45 Måndag, onsdag, fredag, söndag<br>
-					v.28-31 Oavsett väder och vind.</p>
-
-					<p>Alla är välkomna!</p>
-
-					<p>Yogan är en skön mix av Vinyasa Flow, Virya, Hatha och Yinyoga.
-					Det ger dig energi, mjukgör kroppen och sinnet blir lugnt.
-					Vi yogar på altanen eller på stranden. </p>
-
-					<p>Pris: 180:-/person<br>
-					Swish på plats -innan klassen börjar, visa upp betalningen och få din yogamatta. <br>
-					Swish nr: 123 20 73 039<br>
-					Perfekt start på en fantastisk sommardag!</p>
-
-					<p>Drop in, vid frågor ring: 076-80 80 162<br>
-					<a href="http://yogastudiongotland.se/" target="_blank">www.yogastudiongotland.se</a></p>
-				</div>
-				<div class="card en">
-					<?php echo wp_get_attachment_image(attachment_url_to_postid( content_url() . '/uploads/morning-yoga.jpg' ), 'medium'); ?>
-					<h2>Wake up with a lovely morning yoga</h2>
-
-					<p> 8.30-9.45 Monday, Wednesday, Friday, Sunday <br>
-					v.28-31 Whatever the weather. </p>
-
-					<p> Everyone is welcome! </p>
-
-					<p> The Yoga is a nice mix of Vinyasa Flow, Virya, Hatha and Yinyoga.
-					It gives you energy, softens the body and the mind becomes calm.
-					We yogar on the deck or on the beach. </p>
-
-					<p> Price: 180 SEK/person <br>
-					Swish on the spot - before the class starts, show us the payment to get your yoga mat. <br>
-					Swish no: 123 20 73 039 <br>
-					Perfect start to a fantastic summer day! </p>
-
-					<p> Drop in. Any questions? Call: +46 (0)76-80 80 162<br>
-					<a href="https://translate.google.com/translate?hl=&sl=sv&tl=en&u=http%3A%2F%2Fyogastudiongotland.se%2F" target="_blank">www.yogastudiongotland.se</a></p>
+				<div class="card">
 				</div>
 			</div>
 		</div>
