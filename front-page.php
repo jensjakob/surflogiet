@@ -638,7 +638,7 @@ endif;
 			</div>
 			<div class="en">
 				<h2>INQUIRE</h2>
-				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and +46-(0)738 29 55 99</p>
+				<p>Mattias will take care of your inquiry. You can reach Mattias directly via telephone and mail; <a href="mailto:mattias@surflogiet.se">mattias@surflogiet.se</a> and +46-(0)738 39 55 99</p>
 			</div>
 			
 			<div class="hide status_ok">
